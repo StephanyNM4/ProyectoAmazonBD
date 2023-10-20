@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="792C1B14-ECD3-A897-F149-442A0CF8915F" name="TBL_CONSUMIDORES">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 06:43:15 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSUMIDOR" id="CC823BC5-C045-986B-0FE7-B36693DC562F">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 06:45:14 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NUMERO_TELEFONICO" id="3B5A4B31-674E-8FB3-066F-AB2B77DBEE35">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 00:38:45 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FE7F98A-042F-58D7-6013-80B42644D8AF" referredColumn="64B8C20A-AA57-8EFF-E123-2EC088B7CB07"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="C1564C47-5B63-4D66-84A4-EAA41A06684E">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 06:45:14 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="44F42B90-EE04-C2AF-CEFB-2B2B52FB6080">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 06:45:51 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="116225FF-7C06-CED1-4BFF-BA9976C38190">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 06:46:41 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1824862E-0508-A7D2-ED86-A6FDDEEA77E3" name="TBL_CONSUMIDORES_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 06:45:14 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC823BC5-C045-986B-0FE7-B36693DC562F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6FEC50F-53FC-2187-19F0-E7ABD5C8CBCC" name="TBL_CONSUMIDORES_TBL_NUMEROS_TELEFONICOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 00:38:45 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B5A4B31-674E-8FB3-066F-AB2B77DBEE35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35F9E1EC-53DF-B931-51D3-D030773E8209" containerWithKeyObject="7E3695C0-C387-F4F7-9B91-497859723C8D" localFKIndex="5B599A6E-86A7-3408-5B00-FFC5586977C9" name="TBL_PRODUCTOS_TBL_CATEGORIAS_PRODUCTOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:25:43 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_CATEGORIAS_PRODUCTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91A405DD-6780-D692-7F6E-DA45F38DDA6B</referredTableID>
+<keyObject>2C0A9692-01A6-E1D4-44EF-014719793BB0</keyObject>
+<referredKeyID>2C0A9692-01A6-E1D4-44EF-014719793BB0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CATEGORIA_PRODUCTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

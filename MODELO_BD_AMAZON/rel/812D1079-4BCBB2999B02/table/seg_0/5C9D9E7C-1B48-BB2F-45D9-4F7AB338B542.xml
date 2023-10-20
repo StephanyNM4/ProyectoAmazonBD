@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C9D9E7C-1B48-BB2F-45D9-4F7AB338B542" name="TBL_PERSONAS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:54:36 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERSONA" id="5F333EC0-CB8E-4E1E-B862-02C962300A62">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:56:36 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_PERSONA" id="23F3C341-91F1-6C9E-9F7A-A354D79A9CD9">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 06:01:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55B1F75A-D2DE-AB96-49FD-DF7B6F291EB2" referredColumn="6551D352-4C08-7D89-E7E1-76DE3375AB5D"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="ACF26F89-EE50-0915-7DF5-AC1B3F269566">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:56:36 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="40F0E0B3-D670-858D-8EC5-F29E7EA67B5A">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:56:36 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D616B811-A5B9-CDD4-08B8-02C8B7A2634B" name="TBL_PERSONAS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:56:36 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F333EC0-CB8E-4E1E-B862-02C962300A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="029B62C9-1E8E-9B8D-827C-91EBA245D952" name="TBL_PERSONAS_TBL_TIPOS_PERSONAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 06:01:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23F3C341-91F1-6C9E-9F7A-A354D79A9CD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

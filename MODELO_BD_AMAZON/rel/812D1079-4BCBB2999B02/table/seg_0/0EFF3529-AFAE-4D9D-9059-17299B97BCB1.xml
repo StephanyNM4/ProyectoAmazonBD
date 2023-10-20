@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EFF3529-AFAE-4D9D-9059-17299B97BCB1" name="TBL_TELEFONOS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:33:43 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="B7E5C7E7-B31C-CE5D-5629-9C5077D0C5C9">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:47:50 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C33BBBB-B157-3B4C-41F1-69FEA45B2D6E" referredColumn="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
+</associations>
+</Column>
+<Column name="MODELO" id="E555D933-3882-89FF-AE28-76AD89F19DAD">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:06:31 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMORIA_INTERNA" id="40D2A671-88D2-A352-1561-6A8EC1588832">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:52:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMORIA_RAM" id="82641488-1ABC-8784-691F-6B3769D2620D">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:06:31 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SISTEMA_OPERATIVO" id="B6EF8280-ABCC-1578-376B-2A9B1612D24E">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:06:31 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROCESADOR" id="43153C84-A454-BDF2-2180-17C57C18CA15">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:06:31 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BATERIA" id="76E31F86-A92B-56FF-640C-D7E25CE8359E">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:06:31 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESBLOQUEO_BIOMETRICO" id="9982CF44-7DB3-2614-23EC-9377ABCDCE8B">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:06:31 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESISTIBILIDAD_AGUA" id="E4323216-4098-20D5-DD0A-673FDA0FC0E1">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:52:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E97CD226-CB1A-9231-B9FE-D6216EA99DB6" name="TBL_TELEFONOS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:46:42 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E5C7E7-B31C-CE5D-5629-9C5077D0C5C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA7727E6-9E2F-6D78-2BCE-B58FCE8E4D60" name="TBL_TELEFONOS_TBL_PRODUCTOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:47:50 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E5C7E7-B31C-CE5D-5629-9C5077D0C5C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

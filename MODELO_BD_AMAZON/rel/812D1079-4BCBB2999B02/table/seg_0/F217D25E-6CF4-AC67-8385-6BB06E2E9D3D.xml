@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F217D25E-6CF4-AC67-8385-6BB06E2E9D3D" name="TBL_COMENTARIOS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:30:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMENTARIO" id="5169E427-A548-AA6C-E1DF-730AF440370C">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:34:02 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRODUCTO" id="13EF7AD2-4796-BA55-006C-0B06FA67CD1C">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:34:53 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0CB6D27-4936-ED66-BEB7-8B55849E2D10" referredColumn="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
+</associations>
+</Column>
+<Column name="ID_CONSUMIDOR" id="D3477BAA-91C2-4B2D-0EE4-4E16F1D6D4D3">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:35:57 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3769CC45-4027-8AC5-5CE6-5B5E369A6CDC" referredColumn="CC823BC5-C045-986B-0FE7-B36693DC562F"/>
+</associations>
+</Column>
+<Column name="CALIFICACION" id="A5735D78-7306-509B-9544-12BF4014F84A">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:34:02 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENCABEZADO" id="BDFC2319-6E20-B926-6FF2-D0E021FB9DB7">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:34:02 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PUBLICACION" id="AF1412B3-6C98-662B-C14D-A8E3270FA5B3">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:34:02 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENTARIO" id="6540ADAD-790F-E530-D6DC-E7055D9D0827">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:34:02 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UTIL" id="BF6469F1-C28C-8CE6-5685-99D0FB20E254">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:34:02 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08C0C147-008F-E46F-8094-31D37EFFF201" name="TBL_COMENTARIOS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:34:02 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5169E427-A548-AA6C-E1DF-730AF440370C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B82623A-EFE5-AD21-C10F-DB416CC2D655" name="TBL_COMENTARIOS_TBL_PRODUCTOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:34:53 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13EF7AD2-4796-BA55-006C-0B06FA67CD1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="256C1450-3C52-7AE6-13BD-E9CE7E6EDDDF" name="TBL_COMENTARIOS_TBL_CONSUMIDORES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:35:57 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3477BAA-91C2-4B2D-0EE4-4E16F1D6D4D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6E86EF3-2BDD-1083-1B41-04D77F768690" name="TBL_EQUIPAJES">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:34:29 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="35B85242-C636-C824-D086-906DD97247C1">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:34:36 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="663CAF0B-CC6E-E130-0E09-17260FE6FB6F" referredColumn="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
+</associations>
+</Column>
+<Column name="PESO_SOPORTADO" id="AE56392B-DDB9-A211-E572-95B50A5217C2">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:24:58 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUEDAS" id="BB31918D-7DF2-D5B0-7668-424B60E69BE4">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:24:58 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E9F0D5C-D6E1-EDE5-3F2C-A473B75488E8" name="TBL_EQUIPAJES_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:48:29 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35B85242-C636-C824-D086-906DD97247C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62FC98F8-BD14-40EF-FA3B-3E8E5D1F3A80" name="TBL_EQUIPAJES_TBL_PRODUCTOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:34:36 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35B85242-C636-C824-D086-906DD97247C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

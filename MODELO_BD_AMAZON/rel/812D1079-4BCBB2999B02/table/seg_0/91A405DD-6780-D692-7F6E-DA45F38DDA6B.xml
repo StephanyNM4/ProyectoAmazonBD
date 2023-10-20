@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91A405DD-6780-D692-7F6E-DA45F38DDA6B" name="TBL_CATEGORIAS_PRODUCTOS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:21:39 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CATEGORIA_PRODUCTO" id="4AA45F77-9E23-20F3-750A-C5896346A75C">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:23:08 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA" id="CBC5F3E4-5F67-3D0B-6BE5-F995360E9C3F">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:23:08 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C0A9692-01A6-E1D4-44EF-014719793BB0" name="TBL_CATEGORIAS_PRODUCTOS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:23:08 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AA45F77-9E23-20F3-750A-C5896346A75C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

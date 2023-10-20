@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A81ED65-3985-662E-789C-C4CFAE1D6918" containerWithKeyObject="CD362D6E-D3EA-F1A8-7C1C-7063DD219DD0" localFKIndex="CB2598A6-9B18-6464-2F28-8F20939AB959" name="TBL_IDS_PRODUCTOS_TBL_ESTADOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 17:30:06 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_ESTADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64CA2879-F06A-89B9-15D4-F9E7175AB675</referredTableID>
+<keyObject>94D99F08-1EAE-FC6E-C91C-871C7C1609EC</keyObject>
+<referredKeyID>94D99F08-1EAE-FC6E-C91C-871C7C1609EC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

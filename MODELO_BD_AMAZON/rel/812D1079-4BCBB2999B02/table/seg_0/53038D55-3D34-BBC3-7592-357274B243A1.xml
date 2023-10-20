@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53038D55-3D34-BBC3-7592-357274B243A1" name="TBL_LIBROS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:33:06 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="8B527AB3-AF7B-FB93-C716-37874DAF9F77">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:48:34 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95C6B129-982C-B3C6-DFB8-2BCEC0099237" referredColumn="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
+</associations>
+</Column>
+<Column name="ID_AUTOR" id="1FEA42DB-D799-B58B-AB03-A8225A2F2A9E">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 06:02:16 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A88D37E-C964-8C00-B718-18550D476524" referredColumn="5F333EC0-CB8E-4E1E-B862-02C962300A62"/>
+</associations>
+</Column>
+<Column name="TITULO" id="4AD1562B-E4BE-C3C9-BA08-37767D6F8E9E">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:16:42 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_PAGINAS" id="27106073-D15A-5B75-987B-16A6520ADB0E">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:16:42 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PUBLICACION" id="233FBA95-E558-FDDE-4CF4-9CFF9CE1029F">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:16:42 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDITORIAL" id="470393CF-6EAC-9A91-4019-1FB8E664CD25">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:16:42 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33A502EB-A8AB-EF47-E854-8D522A26CD45" name="TBL_LIBROS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:45:30 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B527AB3-AF7B-FB93-C716-37874DAF9F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="070EEFAB-B5B4-581E-519C-1C1B2FDEA9DE" name="TBL_LIBROS_TBL_PRODUCTOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:48:34 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B527AB3-AF7B-FB93-C716-37874DAF9F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41967679-80D6-A358-35B8-29DCFF62CFA8" name="TBL_LIBROS_TBL_PERSONAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 06:02:16 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FEA42DB-D799-B58B-AB03-A8225A2F2A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

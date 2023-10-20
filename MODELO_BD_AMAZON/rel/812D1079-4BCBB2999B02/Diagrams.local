@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="4E12E0ED-EB62-433A-CB75-6CB3C42A7866" name="MODELO_BD_AMAZON" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

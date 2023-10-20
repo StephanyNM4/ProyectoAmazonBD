@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2179682D-DAEA-F67E-DCF1-DC39374D4740" name="TBL_TIPOS_CUENTAS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 08:08:16 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_CUENTA" id="F5C48322-6BCF-73CC-19F9-023414BB4D2B">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 08:09:27 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LOGISTICA" id="6BA9DA78-E89E-7E8E-6C5C-8484069D5D5F">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 17:23:28 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7357ECE-B3B7-FC37-0F6B-41157BCDF92F" referredColumn="06AA027B-B1E7-F08F-C735-D2791B26C013"/>
+</associations>
+</Column>
+<Column name="TIPO_CUENTA" id="1ACEAB7C-22E5-4051-F7E4-BA3D98C13087">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 08:09:27 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D35EEC8-728F-1652-C40E-FCF4D37C6C50" name="TBL_TIPOS_CUENTAS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 08:09:27 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5C48322-6BCF-73CC-19F9-023414BB4D2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0487489-EFAF-4B56-5ED0-9EC67A6FC629" name="TBL_TIPOS_CUENTAS_TBL_TIPO_LOGISTICA_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 17:23:28 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BA9DA78-E89E-7E8E-6C5C-8484069D5D5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

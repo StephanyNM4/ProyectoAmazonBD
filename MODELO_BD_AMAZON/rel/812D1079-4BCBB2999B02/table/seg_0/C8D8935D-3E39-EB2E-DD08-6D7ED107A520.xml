@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8D8935D-3E39-EB2E-DD08-6D7ED107A520" name="TBL_LUGARES">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 01:14:36 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LUGAR" id="4726DE25-FBB0-57CB-D141-A85543761FD1">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 01:16:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LUGAR_PADRE" id="8B5EB9CA-2D4E-D5BE-7526-C47A5B410A9C">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 01:16:11 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59A2C5EE-B67D-AE36-52E5-6AADB0F11985" referredColumn="4726DE25-FBB0-57CB-D141-A85543761FD1"/>
+</associations>
+</Column>
+<Column name="ID_TIPO_LUGAR" id="23F82F25-F5AF-9F2E-219E-BF9E76EF1324">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 01:17:12 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BABC74FE-CDEE-0561-EF52-D128B636266F" referredColumn="EB5DDB56-9F9F-49D6-E4CB-537CF85D4199"/>
+</associations>
+</Column>
+<Column name="ZIP" id="F31197D1-FB4E-BA09-EB75-96A2EA1FB9AC">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 01:16:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9C4D8C1-343B-9AEA-B2CA-7DEF4980A61F" name="TBL_LUGARES_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 01:16:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4726DE25-FBB0-57CB-D141-A85543761FD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A6E4ED2-B21B-4AF7-AA08-A7471133820D" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 01:16:11 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B5EB9CA-2D4E-D5BE-7526-C47A5B410A9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B6E138B-950E-47D9-CC13-E13A8CF199D7" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 01:17:12 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23F82F25-F5AF-9F2E-219E-BF9E76EF1324"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

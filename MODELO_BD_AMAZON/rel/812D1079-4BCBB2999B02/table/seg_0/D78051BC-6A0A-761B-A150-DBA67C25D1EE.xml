@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D78051BC-6A0A-761B-A150-DBA67C25D1EE" name="TBL_VENDEDORES">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:40:18 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VENDEDOR" id="0DA272FA-6C7B-C06E-8DBA-C47AD009D20E">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:41:10 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_CUENTA" id="BEBB4CA1-A6F0-CE56-6383-F9E3BDC143FC">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 16:02:21 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8E69A15-2474-ECDF-D708-4968A153779B" referredColumn="F5C48322-6BCF-73CC-19F9-023414BB4D2B"/>
+</associations>
+</Column>
+<Column name="ID_NUMERO_TELEFONICO" id="64BB9A0E-71C5-C7BA-FD6C-388B90B56615">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 00:37:10 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97F54002-C56E-8707-C3DC-F579A3D15EBD" referredColumn="64B8C20A-AA57-8EFF-E123-2EC088B7CB07"/>
+</associations>
+</Column>
+<Column name="ID_EMPRESA" id="740E9DBA-148D-58C0-2B65-430F54EAEC19">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:30:08 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6BADFE7-E5E2-F584-F6A4-6293B9F0ABD7" referredColumn="195E6B7A-0F48-926B-3CBC-508EEFFA0EF4"/>
+</associations>
+</Column>
+<Column name="ID_LUGAR_RESIDENCIA" id="8501617C-31FA-E07D-BBF3-01DBEF819A48">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:31:56 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B54B4B3F-0C67-4A8B-8AB1-4FF3C45601F8" referredColumn="4726DE25-FBB0-57CB-D141-A85543761FD1"/>
+</associations>
+</Column>
+<Column name="ID_LUGAR_NACIMIENTO" id="E19EE59B-0016-FECB-CE94-FF9274ED3878">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:32:37 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83C31DC2-BE97-2283-D3CC-0C79B2C3CC54" referredColumn="4726DE25-FBB0-57CB-D141-A85543761FD1"/>
+</associations>
+</Column>
+<Column name="PRIMER_NOMBRE" id="326AD04C-9948-698E-3CB7-9E4A2714C7C3">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:42:23 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUNDO_NOMBRE" id="2F6FA84A-CBC3-258A-4967-9D699AF07582">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:44:32 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="AD3B40C1-478F-0FC5-4586-15721709E50B">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:44:32 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="422D1495-F0F9-EF49-19B7-2E1D402D4AD6">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:44:32 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDENTIFICACION" id="77B40C45-364E-8F2F-3146-7A0733A61405">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:44:32 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO_CUENTA" id="04DDA843-BDBB-E777-3D75-D6C31F5C9B3C">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 17:13:30 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20287A16-1FCF-C222-5D95-69729FC14B93" name="TBL_VENDEDORES_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 07:47:45 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DA272FA-6C7B-C06E-8DBA-C47AD009D20E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B95C8E4B-E3FC-9282-79C7-38D8A5C53030" name="TBL_VENDEDORES_TBL_TIPOS_CUENTAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-19 16:02:21 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEBB4CA1-A6F0-CE56-6383-F9E3BDC143FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8A0DDCB-21CB-461A-8F44-5E20BB44DA91" name="TBL_VENDEDORES_TBL_NUMEROS_TELEFONICOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 00:37:10 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64BB9A0E-71C5-C7BA-FD6C-388B90B56615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70D1A1B9-F91B-8036-AA3C-6DDCECCAD3DA" name="TBL_VENDEDORES_TBL_EMPRESAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:30:08 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="740E9DBA-148D-58C0-2B65-430F54EAEC19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58C7F954-1B51-AD4A-712B-AF96F9322BBD" name="TBL_VENDEDORES_TBL_LUGARES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:31:56 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8501617C-31FA-E07D-BBF3-01DBEF819A48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F933BE6-35CF-5FB2-1F71-BD58E019CAB2" name="TBL_VENDEDORES_TBL_LUGARES_FKv2">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:32:37 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E19EE59B-0016-FECB-CE94-FF9274ED3878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

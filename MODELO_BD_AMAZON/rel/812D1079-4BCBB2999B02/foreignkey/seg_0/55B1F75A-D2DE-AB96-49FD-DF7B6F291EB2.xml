@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55B1F75A-D2DE-AB96-49FD-DF7B6F291EB2" containerWithKeyObject="5C9D9E7C-1B48-BB2F-45D9-4F7AB338B542" localFKIndex="029B62C9-1E8E-9B8D-827C-91EBA245D952" name="TBL_PERSONAS_TBL_TIPOS_PERSONAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 06:01:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_PERSONAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7CD2BBF-F333-5BD1-C7D5-B9FB9A86B390</referredTableID>
+<keyObject>4EB4D123-F26E-4835-646D-3D76EAC406FC</keyObject>
+<referredKeyID>4EB4D123-F26E-4835-646D-3D76EAC406FC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_PERSONA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

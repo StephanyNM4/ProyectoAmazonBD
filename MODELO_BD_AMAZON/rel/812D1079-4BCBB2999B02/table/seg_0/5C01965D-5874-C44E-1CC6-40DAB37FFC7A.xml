@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C01965D-5874-C44E-1CC6-40DAB37FFC7A" name="TBL_PINTURAS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:34:40 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="CB69267E-5960-62FD-6B59-1AF8A59C9DE4">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:49:56 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D90C884-C979-F6BF-C9A7-727F37E05F19" referredColumn="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
+</associations>
+</Column>
+<Column name="ID_PINTOR" id="FDF23D2E-358C-624C-95FC-B3BC00AA9A8F">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 06:02:07 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9869DA06-4624-3B8A-BC9E-073AC4208740" referredColumn="5F333EC0-CB8E-4E1E-B862-02C962300A62"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C40FD49-83BC-1644-48EC-D9D80418F63C" name="TBL_PINTURAS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 04:49:16 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB69267E-5960-62FD-6B59-1AF8A59C9DE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CF90B82-52FA-ABD4-EF8F-638407C847D2" name="TBL_PINTURAS_TBL_PRODUCTOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 05:49:56 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB69267E-5960-62FD-6B59-1AF8A59C9DE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B8ABDA7-D0AC-4131-2A80-364ADC53FBBA" name="TBL_PINTURAS_TBL_PERSONAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 06:02:07 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDF23D2E-358C-624C-95FC-B3BC00AA9A8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

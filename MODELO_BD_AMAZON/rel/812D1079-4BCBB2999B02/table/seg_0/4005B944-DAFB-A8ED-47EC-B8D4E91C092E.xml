@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4005B944-DAFB-A8ED-47EC-B8D4E91C092E" name="TBL_EMPRESAS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:27:07 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPRESA" id="195E6B7A-0F48-926B-3CBC-508EEFFA0EF4">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:29:15 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LUGAR" id="2C55658D-319E-2313-7EFC-14BA0F33CE39">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:33:27 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18E44BB3-6448-D8D3-CA7A-A4C186E3DCB4" referredColumn="4726DE25-FBB0-57CB-D141-A85543761FD1"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="ECF4125A-D586-61C0-33AD-390445231CC8">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:29:15 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_REGISTRO" id="30AC9B0E-48BB-2BAD-8550-CB1418FC1967">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:29:15 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="261FAFD0-4714-7356-3B68-576CE4349763" name="TBL_EMPRESAS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:29:15 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="195E6B7A-0F48-926B-3CBC-508EEFFA0EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="781354A8-6DB3-79B1-5AAA-A9BB9E015077" name="TBL_EMPRESAS_TBL_LUGARES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:33:27 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C55658D-319E-2313-7EFC-14BA0F33CE39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

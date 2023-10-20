@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B54B4B3F-0C67-4A8B-8AB1-4FF3C45601F8" containerWithKeyObject="D78051BC-6A0A-761B-A150-DBA67C25D1EE" localFKIndex="58C7F954-1B51-AD4A-712B-AF96F9322BBD" name="TBL_VENDEDORES_TBL_LUGARES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 03:31:56 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_LUGARES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8D8935D-3E39-EB2E-DD08-6D7ED107A520</referredTableID>
+<keyObject>F9C4D8C1-343B-9AEA-B2CA-7DEF4980A61F</keyObject>
+<referredKeyID>F9C4D8C1-343B-9AEA-B2CA-7DEF4980A61F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LUGAR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
