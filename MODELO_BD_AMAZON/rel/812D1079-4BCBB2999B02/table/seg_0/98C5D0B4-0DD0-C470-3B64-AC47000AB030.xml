@@ -1,16 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53038D55-3D34-BBC3-7592-357274B243A1" name="TBL_LIBROS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98C5D0B4-0DD0-C470-3B64-AC47000AB030" name="TBL_PEDIDOS">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 04:33:06 UTC</createdTime>
+<createdTime>2023-10-20 16:15:14 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<ordsAlias>table_26</ordsAlias>
+<ordsAlias>table_34</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_PRODUCTO" id="8B527AB3-AF7B-FB93-C716-37874DAF9F77">
+<Column name="ID_PEDIDO" id="C84B4ED3-63A4-3EC0-6FA7-3C9DFB33A42E">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:48:34 UTC</createdTime>
+<createdTime>2023-10-20 16:18:27 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DIRECCION_CONSUMIDOR" id="9CF99825-A753-6BD7-B5AC-16B5E5B8D5A1">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 16:32:15 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="95C6B129-982C-B3C6-DFB8-2BCEC0099237" referredColumn="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
+<colAssociation fkAssociation="3285943D-2C0B-283C-A0F3-F9B3E512592C" referredColumn="02BF1BF8-C45E-2FDA-6088-68E1849DDACF"/>
 </associations>
 </Column>
-<Column name="ID_AUTOR" id="1FEA42DB-D799-B58B-AB03-A8225A2F2A9E">
+<Column name="ID_ESTADO" id="9712BDE5-7590-41CC-E20D-AD07F2193DE1">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 06:02:16 UTC</createdTime>
+<createdTime>2023-10-20 16:40:57 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,35 +43,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7A88D37E-C964-8C00-B718-18550D476524" referredColumn="5F333EC0-CB8E-4E1E-B862-02C962300A62"/>
+<colAssociation fkAssociation="F07996A0-6442-4738-45C3-6414591D1DAD" referredColumn="ACE8C2A9-9EAE-70C3-052C-E79E94ACF7EF"/>
 </associations>
 </Column>
-<Column name="TITULO" id="4AD1562B-E4BE-C3C9-BA08-37767D6F8E9E">
+<Column name="FECHA" id="D44EA7D9-95C0-7F70-F627-80F7D5B8F5E6">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:16:42 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CANTIDAD_PAGINAS" id="27106073-D15A-5B75-987B-16A6520ADB0E">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:16:42 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FECHA_PUBLICACION" id="233FBA95-E558-FDDE-4CF4-9CFF9CE1029F">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:16:42 UTC</createdTime>
+<createdTime>2023-10-20 16:18:27 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,49 +57,59 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="EDITORIAL" id="470393CF-6EAC-9A91-4019-1FB8E664CD25">
+<Column name="SUBTOTAL" id="33FE2453-0DFE-73A3-B47E-563CC47267EB">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:16:42 UTC</createdTime>
+<createdTime>2023-10-20 16:18:27 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL" id="9B974311-08A2-1846-5BEE-93E192BF7AF0">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 16:18:27 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="33A502EB-A8AB-EF47-E854-8D522A26CD45" name="TBL_LIBROS_PK">
+<ind_PK_UK id="4447A304-8A59-66D9-8C7C-A85CF1351122" name="TBL_PEDIDOS_PK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 04:45:30 UTC</createdTime>
+<createdTime>2023-10-20 16:18:27 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8B527AB3-AF7B-FB93-C716-37874DAF9F77"/>
+<colUsage columnID="C84B4ED3-63A4-3EC0-6FA7-3C9DFB33A42E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="070EEFAB-B5B4-581E-519C-1C1B2FDEA9DE" name="TBL_LIBROS_TBL_PRODUCTOS_FK">
+<ind_PK_UK id="06B52115-5C32-E36D-D634-C95B2BD457D6" name="TBL_PEDIDOS_TBL_DIRECCCIONES_CONSUMIDOR_FK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:48:34 UTC</createdTime>
+<createdTime>2023-10-20 16:30:18 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8B527AB3-AF7B-FB93-C716-37874DAF9F77"/>
+<colUsage columnID="9CF99825-A753-6BD7-B5AC-16B5E5B8D5A1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="41967679-80D6-A358-35B8-29DCFF62CFA8" name="TBL_LIBROS_TBL_PERSONAS_FK">
+<ind_PK_UK id="D2D4EEFD-8489-43F9-657C-33E70FDEFBAA" name="TBL_PEDIDOS_TBL_ESTADOS_FK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 06:02:16 UTC</createdTime>
+<createdTime>2023-10-20 16:40:57 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1FEA42DB-D799-B58B-AB03-A8225A2F2A9E"/>
+<colUsage columnID="9712BDE5-7590-41CC-E20D-AD07F2193DE1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

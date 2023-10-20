@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DIRECCION_CONSUMIDOR" id="02BF1BF8-C45E-2FDA-6088-68E1849DDACF">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 16:32:10 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ID_CONSUMIDOR" id="DA516D40-8E64-4482-5E13-FB17361F580D">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 16:20:08 UTC</createdTime>
@@ -36,6 +46,17 @@
 <colAssociation fkAssociation="8B986944-7F17-0BF3-1E15-4FC5977B02F0" referredColumn="4726DE25-FBB0-57CB-D141-A85543761FD1"/>
 </associations>
 </Column>
+<Column name="COSTO_ENVIO" id="47D3B385-9AD5-43C2-D301-8FA79076C7D3">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 16:26:28 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8D50D402-C6FC-CD0F-8FEA-379739CB0277" name="TBL_DIRECCCIONES_CONSUMIDOR_PK">
@@ -46,8 +67,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DA516D40-8E64-4482-5E13-FB17361F580D"/>
-<colUsage columnID="C2083293-874C-6160-45D1-9F9947AE10A8"/>
+<colUsage columnID="02BF1BF8-C45E-2FDA-6088-68E1849DDACF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="2E0B0448-B652-6303-3F17-4008B1FA8C36" name="TBL_DIRECCCIONES_CONSUMIDOR_TBL_CONSUMIDORES_FK">

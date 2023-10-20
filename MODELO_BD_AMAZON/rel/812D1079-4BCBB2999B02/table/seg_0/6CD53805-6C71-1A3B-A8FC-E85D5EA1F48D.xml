@@ -8,10 +8,39 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_JUGUETE" id="52E15FA9-3CF2-4C07-DE70-87A9028ED3C4">
+<Column name="ID_PRODUCTO" id="FEF2962B-6079-046C-5052-33B7F4BD52BB">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 04:46:08 UTC</createdTime>
+<createdTime>2023-10-20 15:56:45 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3D8B6CE-E59B-F702-007E-5238500B4195" referredColumn="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
+</associations>
+</Column>
+<Column name="ID_COLOR" id="4FBEA2E5-EEBB-3427-EECF-E819EC3925EF">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:57:46 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7DBF6CD-2F07-3184-C604-F90339C4EF2C" referredColumn="22700B93-09CE-4C11-022D-01F8D2FC077A"/>
+</associations>
+</Column>
+<Column name="RANGO_EDAD" id="E17D6A97-F588-7D09-646E-7866D2C7255F">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:53:49 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -28,7 +57,27 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="52E15FA9-3CF2-4C07-DE70-87A9028ED3C4"/>
+<colUsage columnID="FEF2962B-6079-046C-5052-33B7F4BD52BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1C37665-4F6D-0089-4BD5-F57C87580157" name="TBL_JUGUETES_TBL_PRODUCTOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:56:45 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEF2962B-6079-046C-5052-33B7F4BD52BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF7C88E7-EFC3-570C-BA1D-09FF3DA3E0C4" name="TBL_JUGUETES_TBL_COLORES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:57:46 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FBEA2E5-EEBB-3427-EECF-E819EC3925EF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

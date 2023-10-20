@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD445DCE-9267-81C5-B332-742A11E2D1B0" name="TBL_COLORES">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:54:09 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COLOR" id="22700B93-09CE-4C11-022D-01F8D2FC077A">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:54:49 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLOR" id="A8653218-DB5E-D347-3395-73658BD2D19F">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:54:49 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF416453-6704-AC30-FA15-C62D59E8829A" name="TBL_COLORES_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:54:59 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22700B93-09CE-4C11-022D-01F8D2FC077A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

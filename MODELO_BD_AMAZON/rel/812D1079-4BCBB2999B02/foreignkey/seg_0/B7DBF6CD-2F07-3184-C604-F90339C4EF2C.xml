@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7DBF6CD-2F07-3184-C604-F90339C4EF2C" containerWithKeyObject="6CD53805-6C71-1A3B-A8FC-E85D5EA1F48D" localFKIndex="FF7C88E7-EFC3-570C-BA1D-09FF3DA3E0C4" name="TBL_JUGUETES_TBL_COLORES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:57:46 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_COLORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AD445DCE-9267-81C5-B332-742A11E2D1B0</referredTableID>
+<keyObject>DF416453-6704-AC30-FA15-C62D59E8829A</keyObject>
+<referredKeyID>DF416453-6704-AC30-FA15-C62D59E8829A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_COLOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

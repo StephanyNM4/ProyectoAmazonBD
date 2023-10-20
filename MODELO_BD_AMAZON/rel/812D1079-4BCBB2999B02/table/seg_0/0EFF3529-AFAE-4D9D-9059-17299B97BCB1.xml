@@ -22,6 +22,20 @@
 <colAssociation fkAssociation="9C33BBBB-B157-3B4C-41F1-69FEA45B2D6E" referredColumn="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
 </associations>
 </Column>
+<Column name="ID_COLOR" id="71F4B92A-514C-2254-BF8E-8D1465DF528E">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:57:19 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD6BEDA3-C212-32FF-7247-B61268B94F76" referredColumn="22700B93-09CE-4C11-022D-01F8D2FC077A"/>
+</associations>
+</Column>
 <Column name="MODELO" id="E555D933-3882-89FF-AE28-76AD89F19DAD">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 05:06:31 UTC</createdTime>
@@ -137,6 +151,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B7E5C7E7-B31C-CE5D-5629-9C5077D0C5C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="453CD922-3A1B-4FE0-1730-3D7E11DC9977" name="TBL_TELEFONOS_TBL_COLORES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 15:57:19 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71F4B92A-514C-2254-BF8E-8D1465DF528E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

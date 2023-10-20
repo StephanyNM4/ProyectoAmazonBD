@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98AE5DB6-9A35-1F99-163F-08C48EDB47A8" containerWithKeyObject="6BCDF00A-B0A2-6305-24CE-2A05B4E96714" localFKIndex="CD4DE143-4701-D187-985B-F8798C9160D1" name="TBL_PRODUCTOS_PEDIDOS_TBL_PEDIDOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 16:34:00 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_PEDIDOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>98C5D0B4-0DD0-C470-3B64-AC47000AB030</referredTableID>
+<keyObject>4447A304-8A59-66D9-8C7C-A85CF1351122</keyObject>
+<referredKeyID>4447A304-8A59-66D9-8C7C-A85CF1351122</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PEDIDO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
