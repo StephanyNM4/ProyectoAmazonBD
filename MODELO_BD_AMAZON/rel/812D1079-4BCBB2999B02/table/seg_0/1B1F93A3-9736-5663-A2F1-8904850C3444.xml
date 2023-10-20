@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B1F93A3-9736-5663-A2F1-8904850C3444" name="TBL_SISTEMAS_OPERATIVOS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:42:29 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SISTEMA_OPERATIVO" id="2054C7C0-1F9E-99C1-D660-90F1604473A7">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:43:40 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SISTEMA_OPERATIVO" id="6E78B9D9-689C-7D9D-57F8-2752DBF211E4">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:43:40 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF0F1681-B155-1BA7-C586-1B1D9D05FCC7" name="TBL_SISTEMAS_OPERATIVOS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:43:40 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2054C7C0-1F9E-99C1-D660-90F1604473A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

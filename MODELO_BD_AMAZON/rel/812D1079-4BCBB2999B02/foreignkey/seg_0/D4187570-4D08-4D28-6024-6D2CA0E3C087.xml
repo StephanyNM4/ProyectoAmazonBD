@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4187570-4D08-4D28-6024-6D2CA0E3C087" containerWithKeyObject="0EFF3529-AFAE-4D9D-9059-17299B97BCB1" localFKIndex="6F931D28-B353-9E07-EE6B-8639F384F007" name="TBL_TELEFONOS_TBL_MEMORIAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:49:15 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_MEMORIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>240CB88C-0AB9-3CEC-A7FC-C8B714BCEA06</referredTableID>
+<keyObject>4CD89D61-77C8-52C0-1C08-748B1E8A6511</keyObject>
+<referredKeyID>4CD89D61-77C8-52C0-1C08-748B1E8A6511</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MEMORIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

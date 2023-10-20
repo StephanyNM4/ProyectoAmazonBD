@@ -36,6 +36,20 @@
 <colAssociation fkAssociation="7A88D37E-C964-8C00-B718-18550D476524" referredColumn="5F333EC0-CB8E-4E1E-B862-02C962300A62"/>
 </associations>
 </Column>
+<Column name="ID_EDITORIAL" id="A6814AB5-65AE-2EFB-DE5B-B219EB988CF5">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:52:32 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FEB5875-84D8-FBF4-FAFE-E1274FDAF6FE" referredColumn="6EAFF109-38C7-0D0E-15FE-7C45033CF133"/>
+</associations>
+</Column>
 <Column name="TITULO" id="4AD1562B-E4BE-C3C9-BA08-37767D6F8E9E">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 05:16:42 UTC</createdTime>
@@ -70,18 +84,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="EDITORIAL" id="470393CF-6EAC-9A91-4019-1FB8E664CD25">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:16:42 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="33A502EB-A8AB-EF47-E854-8D522A26CD45" name="TBL_LIBROS_PK">
@@ -113,6 +115,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1FEA42DB-D799-B58B-AB03-A8225A2F2A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F13DC26E-2C63-93A3-9ABD-155543B38FD1" name="TBL_LIBROS_TBL_EDITORIALES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:52:32 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6814AB5-65AE-2EFB-DE5B-B219EB988CF5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="444A8767-54C8-BE22-86FF-FDC1E481FB92" name="TBL_TARJETAS_BANCARIAS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:58:45 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TARJETA" id="6827131E-41D8-C05F-4964-9B0E9CCBC694">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:59:43 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_PROPIETARIO" id="A5B6F68A-E274-C5BA-5B28-C974C71BB503">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 18:00:09 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25F8AA0C-8C51-0376-F38D-A49F3255F756" referredColumn="58340BA0-9251-A628-A67D-0DF1C50378C9"/>
+</associations>
+</Column>
+<Column name="NUMERO_TARJETA" id="62215294-E286-029A-DC95-E55DC2EDEF96">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:59:43 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROPIETARIO" id="B22E1220-8735-0B86-1710-1EF0038A97C8">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:59:43 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VENCIMIENTO" id="826F5CFE-7FAA-8162-43A9-B19953A1C00B">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:59:43 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D22FF3F-94BC-28AA-81BD-2810FF73E06E" name="TBL_TARJETAS_BANCARIAS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:59:43 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6827131E-41D8-C05F-4964-9B0E9CCBC694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B526C3B-3D0B-5445-0FC1-E4680CA6F0B6" name="TBL_TARJETAS_BANCARIAS_TBL_TIPOS_PROPIETARIOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 18:00:09 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B6F68A-E274-C5BA-5B28-C974C71BB503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

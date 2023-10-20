@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C151CBAB-1E80-D731-0A2A-D7D94773AAA1" containerWithKeyObject="0EFF3529-AFAE-4D9D-9059-17299B97BCB1" localFKIndex="9E8E5885-6A16-6DA4-D830-BC538883A361" name="TBL_TELEFONOS_TBL_SISTEMAS_OPERATIVOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:48:58 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_SISTEMAS_OPERATIVOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1B1F93A3-9736-5663-A2F1-8904850C3444</referredTableID>
+<keyObject>BF0F1681-B155-1BA7-C586-1B1D9D05FCC7</keyObject>
+<referredKeyID>BF0F1681-B155-1BA7-C586-1B1D9D05FCC7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SISTEMA_OPERATIVO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

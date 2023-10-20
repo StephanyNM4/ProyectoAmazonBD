@@ -36,53 +36,63 @@
 <colAssociation fkAssociation="FD6BEDA3-C212-32FF-7247-B61268B94F76" referredColumn="22700B93-09CE-4C11-022D-01F8D2FC077A"/>
 </associations>
 </Column>
+<Column name="ID_PROCESADOR" id="988607D1-FD8B-C90F-BFAB-C714577C1A5B">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:48:48 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC9D323D-5622-132E-FCD5-57575011A77F" referredColumn="EC4DB027-DC84-3E01-7DB7-DB428D663F93"/>
+</associations>
+</Column>
+<Column name="ID_SISTEMA_OPERATIVO" id="37CE009F-A309-5E96-B90F-5439C297DBEF">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:48:58 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C151CBAB-1E80-D731-0A2A-D7D94773AAA1" referredColumn="2054C7C0-1F9E-99C1-D660-90F1604473A7"/>
+</associations>
+</Column>
+<Column name="ID_MEMORIA_INTERNA" id="6E9BEB5E-0A51-0BB6-D3A6-6AFD7BEEFE64">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:51:30 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26E840EA-F285-54C2-F767-FF94263DDBFC" referredColumn="618D31A3-D3B9-CBAB-4E6C-83EFF887E3A8"/>
+</associations>
+</Column>
+<Column name="ID_MEMORIA_RAM" id="8C03D7DD-2751-EB23-4B32-C1DB2935B336">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:49:15 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4187570-4D08-4D28-6024-6D2CA0E3C087" referredColumn="618D31A3-D3B9-CBAB-4E6C-83EFF887E3A8"/>
+</associations>
+</Column>
 <Column name="MODELO" id="E555D933-3882-89FF-AE28-76AD89F19DAD">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:06:31 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="MEMORIA_INTERNA" id="40D2A671-88D2-A352-1561-6A8EC1588832">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 04:52:00 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="MEMORIA_RAM" id="82641488-1ABC-8784-691F-6B3769D2620D">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:06:31 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="SISTEMA_OPERATIVO" id="B6EF8280-ABCC-1578-376B-2A9B1612D24E">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:06:31 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PROCESADOR" id="43153C84-A454-BDF2-2180-17C57C18CA15">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 05:06:31 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -161,6 +171,46 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="71F4B92A-514C-2254-BF8E-8D1465DF528E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A7E1FC1-3163-60A2-312C-293822A7A459" name="TBL_TELEFONOS_TBL_PROCESADORES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:48:48 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="988607D1-FD8B-C90F-BFAB-C714577C1A5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E8E5885-6A16-6DA4-D830-BC538883A361" name="TBL_TELEFONOS_TBL_SISTEMAS_OPERATIVOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:48:58 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37CE009F-A309-5E96-B90F-5439C297DBEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F931D28-B353-9E07-EE6B-8639F384F007" name="TBL_TELEFONOS_TBL_MEMORIAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:49:15 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C03D7DD-2751-EB23-4B32-C1DB2935B336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="583C75C8-36DE-B0C5-46A6-27BDD1454F17" name="TBL_TELEFONOS_TBL_MEMORIAS_FKv2">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:51:30 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9BEB5E-0A51-0BB6-D3A6-6AFD7BEEFE64"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

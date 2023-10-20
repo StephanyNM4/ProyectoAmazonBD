@@ -32,6 +32,20 @@
 <colAssociation fkAssociation="2FE7F98A-042F-58D7-6013-80B42644D8AF" referredColumn="64B8C20A-AA57-8EFF-E123-2EC088B7CB07"/>
 </associations>
 </Column>
+<Column name="ID_TARJETA" id="629572A4-AD84-2348-E130-D7A6288A89DD">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 18:01:22 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B77FE8A4-A614-CC8D-2648-F8BCF5C52AA4" referredColumn="6827131E-41D8-C05F-4964-9B0E9CCBC694"/>
+</associations>
+</Column>
 <Column name="NOMBRE" id="C1564C47-5B63-4D66-84A4-EAA41A06684E">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 06:45:14 UTC</createdTime>
@@ -89,6 +103,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3B5A4B31-674E-8FB3-066F-AB2B77DBEE35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0217794F-8B7C-942C-E86D-6FE7F3BFA59B" name="TBL_CONSUMIDORES_TBL_TARJETAS_BANCARIAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 18:01:22 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="629572A4-AD84-2348-E130-D7A6288A89DD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

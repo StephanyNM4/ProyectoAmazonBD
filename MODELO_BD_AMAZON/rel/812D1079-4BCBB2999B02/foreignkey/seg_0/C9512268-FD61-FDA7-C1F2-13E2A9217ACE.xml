@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9512268-FD61-FDA7-C1F2-13E2A9217ACE" containerWithKeyObject="D78051BC-6A0A-761B-A150-DBA67C25D1EE" localFKIndex="25625F0C-4928-F93D-6621-C1588986DC3E" name="TBL_VENDEDORES_TBL_TARJETAS_BANCARIAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 18:02:17 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_TARJETAS_BANCARIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>444A8767-54C8-BE22-86FF-FDC1E481FB92</referredTableID>
+<keyObject>9D22FF3F-94BC-28AA-81BD-2810FF73E06E</keyObject>
+<referredKeyID>9D22FF3F-94BC-28AA-81BD-2810FF73E06E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TARJETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

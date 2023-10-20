@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="240CB88C-0AB9-3CEC-A7FC-C8B714BCEA06" name="TBL_MEMORIAS">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:43:47 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MEMORIA" id="618D31A3-D3B9-CBAB-4E6C-83EFF887E3A8">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:44:49 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMORIA" id="91D6C1C9-52BB-F92B-D6CD-37B80BAB5351">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:44:49 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CD89D61-77C8-52C0-1C08-748B1E8A6511" name="TBL_MEMORIAS_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-20 17:44:49 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="618D31A3-D3B9-CBAB-4E6C-83EFF887E3A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
