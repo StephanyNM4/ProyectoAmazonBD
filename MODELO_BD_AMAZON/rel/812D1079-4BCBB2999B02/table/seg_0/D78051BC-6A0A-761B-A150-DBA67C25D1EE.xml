@@ -42,9 +42,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="97F54002-C56E-8707-C3DC-F579A3D15EBD" referredColumn="64B8C20A-AA57-8EFF-E123-2EC088B7CB07"/>
-</associations>
 </Column>
 <Column name="ID_EMPRESA" id="740E9DBA-148D-58C0-2B65-430F54EAEC19">
 <createdBy>steph</createdBy>
@@ -86,20 +83,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="83C31DC2-BE97-2283-D3CC-0C79B2C3CC54" referredColumn="4726DE25-FBB0-57CB-D141-A85543761FD1"/>
-</associations>
-</Column>
-<Column name="ID_TARJETA" id="9C8E1663-EF72-AE08-1804-2DC987D256AF">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 18:02:17 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C9512268-FD61-FDA7-C1F2-13E2A9217ACE" referredColumn="6827131E-41D8-C05F-4964-9B0E9CCBC694"/>
 </associations>
 </Column>
 <Column name="PRIMER_NOMBRE" id="326AD04C-9948-698E-3CB7-9E4A2714C7C3">
@@ -172,6 +155,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NUMERO_TELEFONICO" id="91816186-B467-676C-2DF9-8675254095BC">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 02:59:49 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="20287A16-1FCF-C222-5D95-69729FC14B93" name="TBL_VENDEDORES_PK">
@@ -193,16 +188,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BEBB4CA1-A6F0-CE56-6383-F9E3BDC143FC"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A8A0DDCB-21CB-461A-8F44-5E20BB44DA91" name="TBL_VENDEDORES_TBL_NUMEROS_TELEFONICOS_FK">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 00:37:10 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="64BB9A0E-71C5-C7BA-FD6C-388B90B56615"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="70D1A1B9-F91B-8036-AA3C-6DDCECCAD3DA" name="TBL_VENDEDORES_TBL_EMPRESAS_FK">
@@ -233,16 +218,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E19EE59B-0016-FECB-CE94-FF9274ED3878"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="25625F0C-4928-F93D-6621-C1588986DC3E" name="TBL_VENDEDORES_TBL_TARJETAS_BANCARIAS_FK">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 18:02:17 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9C8E1663-EF72-AE08-1804-2DC987D256AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
