@@ -46,17 +46,6 @@
 <colAssociation fkAssociation="4288C452-0E38-7215-3E2D-1E62E20919B1" referredColumn="74C11C65-EC1A-79C1-1802-1CC81288D1DC"/>
 </associations>
 </Column>
-<Column name="ID_MATERIAL" id="3BBE3216-EE75-2C65-2D64-0E5482A0F446">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:29:11 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="NOMBRE" id="BDC17D5B-5E9D-5723-521B-45914F34C863">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 06:55:44 UTC</createdTime>

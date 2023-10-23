@@ -32,17 +32,6 @@
 <colAssociation fkAssociation="B8E69A15-2474-ECDF-D708-4968A153779B" referredColumn="F5C48322-6BCF-73CC-19F9-023414BB4D2B"/>
 </associations>
 </Column>
-<Column name="ID_NUMERO_TELEFONICO" id="64BB9A0E-71C5-C7BA-FD6C-388B90B56615">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 00:37:10 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="ID_EMPRESA" id="740E9DBA-148D-58C0-2B65-430F54EAEC19">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 03:30:08 UTC</createdTime>
