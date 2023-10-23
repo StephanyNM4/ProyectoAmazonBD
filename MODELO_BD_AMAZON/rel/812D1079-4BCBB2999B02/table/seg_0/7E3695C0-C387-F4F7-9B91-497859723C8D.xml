@@ -56,9 +56,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F4C91AAF-00B7-D13C-0881-7D8AB9C6B242" referredColumn="C527D740-9663-73B2-02E8-EE318B270DCE"/>
-</associations>
 </Column>
 <Column name="NOMBRE" id="BDC17D5B-5E9D-5723-521B-45914F34C863">
 <createdBy>steph</createdBy>
@@ -90,19 +87,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FECHA_ENTREGA" id="93E7AE22-AC3D-AD9D-6C4F-397F6FC2FD6B">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-19 06:55:44 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -195,16 +180,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E7438FCC-A60D-D3EC-CFD1-CFEC0F532BF6"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7E76C7C1-A5EC-6676-E274-359ABBB15A78" name="TBL_PRODUCTOS_TBL_MATERIALES_FK">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:29:11 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="3BBE3216-EE75-2C65-2D64-0E5482A0F446"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

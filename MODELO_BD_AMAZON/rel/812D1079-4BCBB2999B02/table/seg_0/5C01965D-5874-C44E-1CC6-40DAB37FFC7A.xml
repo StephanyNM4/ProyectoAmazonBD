@@ -36,6 +36,20 @@
 <colAssociation fkAssociation="9869DA06-4624-3B8A-BC9E-073AC4208740" referredColumn="5F333EC0-CB8E-4E1E-B862-02C962300A62"/>
 </associations>
 </Column>
+<Column name="ID_TECNICA" id="412BE526-A1EC-4D75-83A4-96107905D9CD">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 01:59:56 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A20EB4-E47C-8093-D2E6-FF9CA508FD4C" referredColumn="89179092-04A6-CE94-E20C-8FF19B2A2D33"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2C40FD49-83BC-1644-48EC-D9D80418F63C" name="TBL_PINTURAS_PK">
@@ -67,6 +81,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FDF23D2E-358C-624C-95FC-B3BC00AA9A8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B5121DF-1A78-DBEE-0156-5124E19D11B5" name="TBL_PINTURAS_TECNICAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 01:59:56 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="412BE526-A1EC-4D75-83A4-96107905D9CD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

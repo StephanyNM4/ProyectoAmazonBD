@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A81ED65-3985-662E-789C-C4CFAE1D6918" containerWithKeyObject="CD362D6E-D3EA-F1A8-7C1C-7063DD219DD0" localFKIndex="CB2598A6-9B18-6464-2F28-8F20939AB959" name="TBL_IDS_PRODUCTOS_TBL_ESTADOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B192159-1B14-6930-0439-187BD8F9CC84" containerWithKeyObject="62283048-B6C2-F8F4-1ECC-1209A57937DC" localFKIndex="926EB020-E672-D5A3-E515-62AB007FE469" name="TBL_PRODUCTOS_EN_VENTA_TBL_ESTADOS_FK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-19 17:30:06 UTC</createdTime>
+<createdTime>2023-10-23 02:33:26 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <referredTableLongName>TBL_ESTADOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

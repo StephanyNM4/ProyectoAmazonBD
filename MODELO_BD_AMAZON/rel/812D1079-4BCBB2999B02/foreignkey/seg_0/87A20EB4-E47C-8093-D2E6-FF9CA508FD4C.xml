@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87A20EB4-E47C-8093-D2E6-FF9CA508FD4C" containerWithKeyObject="5C01965D-5874-C44E-1CC6-40DAB37FFC7A" localFKIndex="2B5121DF-1A78-DBEE-0156-5124E19D11B5" name="TBL_PINTURAS_TECNICAS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 01:59:56 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TECNICAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FE1938E9-1DE6-0537-899E-21B87BF63199</referredTableID>
+<keyObject>BE4A5A25-DC82-1555-883E-AA0F277C792F</keyObject>
+<referredKeyID>BE4A5A25-DC82-1555-883E-AA0F277C792F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TECNICA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

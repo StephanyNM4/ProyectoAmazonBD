@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E196B035-71CB-730A-D18B-C426E8AB2E0B" name="TBL_MATERIALES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE1938E9-1DE6-0537-899E-21B87BF63199" name="TECNICAS">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:25:49 UTC</createdTime>
+<createdTime>2023-10-23 01:58:59 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<ordsAlias>table_31</ordsAlias>
+<ordsAlias>table_36</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_MATERIAL" id="C527D740-9663-73B2-02E8-EE318B270DCE">
+<Column name="ID_TECNICA" id="89179092-04A6-CE94-E20C-8FF19B2A2D33">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:28:03 UTC</createdTime>
+<createdTime>2023-10-23 01:59:49 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MATERIAL" id="D0CFBEAF-EE47-FB41-BFA3-93E9348B7A61">
+<Column name="TECNICA" id="D2DED5C9-BA93-D95E-1EB9-BF3F4F05A431">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:28:03 UTC</createdTime>
+<createdTime>2023-10-23 01:59:49 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,15 +32,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="73B8A062-1295-8686-83A6-C930788E9956" name="TBL_MATERIALES_PK">
+<ind_PK_UK id="BE4A5A25-DC82-1555-883E-AA0F277C792F" name="TECNICAS_PK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 05:28:36 UTC</createdTime>
+<createdTime>2023-10-23 01:59:49 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C527D740-9663-73B2-02E8-EE318B270DCE"/>
+<colUsage columnID="89179092-04A6-CE94-E20C-8FF19B2A2D33"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
