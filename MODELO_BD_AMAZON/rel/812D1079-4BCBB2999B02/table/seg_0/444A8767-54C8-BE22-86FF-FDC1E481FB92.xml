@@ -18,6 +18,50 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_TIPO_PROPIETARIO" id="49C89E17-2F14-090B-D6B3-C28B54387A39">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 03:29:11 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA0D8EFC-F5A6-C60A-85B8-64280EA67664" referredColumn="F1069A96-C031-DA3C-8B09-8B596DC52BF8"/>
+</associations>
+</Column>
+<Column name="ID_CONSUMIDOR" id="2C04018B-6912-B83E-7B68-1A580CF5F6F5">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 03:29:51 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA7AA06E-36F5-C094-115B-133097229831" referredColumn="CC823BC5-C045-986B-0FE7-B36693DC562F"/>
+</associations>
+</Column>
+<Column name="ID_VENDEDOR" id="5224AEA6-7E39-8EFB-48FC-7A538541A8B8">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 03:29:59 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDEDA2D1-9F85-27E2-6BF7-ED316B5D1221" referredColumn="0DA272FA-6C7B-C06E-8DBA-C47AD009D20E"/>
+</associations>
+</Column>
 <Column name="NUMERO_TARJETA" id="62215294-E286-029A-DC95-E55DC2EDEF96">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 17:59:43 UTC</createdTime>
@@ -63,6 +107,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6827131E-41D8-C05F-4964-9B0E9CCBC694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05C63323-4AA5-7776-D964-0CD4155B3CD6" name="TBL_TARJETAS_BANCARIAS_TBL_TIPOS_PROPIETARIOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 03:29:11 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49C89E17-2F14-090B-D6B3-C28B54387A39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2C00CCC-26BC-EEB2-F2A9-6165C78B4C01" name="TBL_TARJETAS_BANCARIAS_TBL_CONSUMIDORES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 03:29:51 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C04018B-6912-B83E-7B68-1A580CF5F6F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FA53A7C-C87F-1F70-A1B0-AA4BBDC6EDB8" name="TBL_TARJETAS_BANCARIAS_TBL_VENDEDORES_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 03:29:59 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5224AEA6-7E39-8EFB-48FC-7A538541A8B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

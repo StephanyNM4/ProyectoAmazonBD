@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A44D5CF-960F-BAF3-391D-7519E19EB6BE" containerWithKeyObject="5AA1D033-970C-2355-FC00-ED6DA8B43632" localFKIndex="E0E6B269-F8B1-6C71-A644-DD3C1EBF2455" name="TBL_TARJETAS_VENDEDORES_TBL_VENDEDORES_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DDEDA2D1-9F85-27E2-6BF7-ED316B5D1221" containerWithKeyObject="444A8767-54C8-BE22-86FF-FDC1E481FB92" localFKIndex="8FA53A7C-C87F-1F70-A1B0-AA4BBDC6EDB8" name="TBL_TARJETAS_BANCARIAS_TBL_VENDEDORES_FK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 03:01:56 UTC</createdTime>
+<createdTime>2023-10-23 03:29:59 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <referredTableLongName>TBL_VENDEDORES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>D78051BC-6A0A-761B-A150-DBA67C25D1EE</referredTableID>
 <keyObject>20287A16-1FCF-C222-5D95-69729FC14B93</keyObject>
 <referredKeyID>20287A16-1FCF-C222-5D95-69729FC14B93</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ID_VENDEDOR</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

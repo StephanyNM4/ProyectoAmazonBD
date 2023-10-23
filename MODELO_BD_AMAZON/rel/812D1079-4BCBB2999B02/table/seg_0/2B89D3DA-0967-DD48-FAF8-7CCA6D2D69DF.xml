@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE1938E9-1DE6-0537-899E-21B87BF63199" name="TECNICAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B89D3DA-0967-DD48-FAF8-7CCA6D2D69DF" name="TBL_TECNICAS">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 01:58:59 UTC</createdTime>
+<createdTime>2023-10-23 03:17:16 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<ordsAlias>table_36</ordsAlias>
+<ordsAlias>table_42</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_TECNICA" id="89179092-04A6-CE94-E20C-8FF19B2A2D33">
+<Column name="ID_TECNICA" id="6BDEBEB3-88FF-2259-EA0C-28CFE5B52EC4">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 01:59:49 UTC</createdTime>
+<createdTime>2023-10-23 03:18:19 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,29 +18,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TECNICA" id="D2DED5C9-BA93-D95E-1EB9-BF3F4F05A431">
+<Column name="TECNICA" id="B4848F6F-3B81-BA84-BB7A-CACADA2A9C44">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 01:59:49 UTC</createdTime>
+<createdTime>2023-10-23 03:18:19 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BE4A5A25-DC82-1555-883E-AA0F277C792F" name="TECNICAS_PK">
+<ind_PK_UK id="C0CDCEAA-EE8C-6971-7A49-E59952C13490" name="TBL_TECNICAS_PK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 01:59:49 UTC</createdTime>
+<createdTime>2023-10-23 03:18:37 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="89179092-04A6-CE94-E20C-8FF19B2A2D33"/>
+<colUsage columnID="6BDEBEB3-88FF-2259-EA0C-28CFE5B52EC4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

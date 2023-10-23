@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA0D8EFC-F5A6-C60A-85B8-64280EA67664" containerWithKeyObject="444A8767-54C8-BE22-86FF-FDC1E481FB92" localFKIndex="05C63323-4AA5-7776-D964-0CD4155B3CD6" name="TBL_TARJETAS_BANCARIAS_TBL_TIPOS_PROPIETARIOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-10-23 03:29:11 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_PROPIETARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1113196-F057-D9E8-C3CF-2394A8ACC296</referredTableID>
+<keyObject>06CB71E0-0612-DC7D-9FF3-8F916C82C17C</keyObject>
+<referredKeyID>06CB71E0-0612-DC7D-9FF3-8F916C82C17C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_PROPIETARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
