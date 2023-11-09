@@ -18,6 +18,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_CATEGORIA_PADRE" id="39AA0C34-2970-124E-44DB-BDDBC55BDCA0">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-09 04:28:55 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="069F88B4-2AC7-7E52-4B97-F9F59F0DA782" referredColumn="4AA45F77-9E23-20F3-750A-C5896346A75C"/>
+</associations>
+</Column>
 <Column name="CATEGORIA" id="CBC5F3E4-5F67-3D0B-6BE5-F995360E9C3F">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 07:23:08 UTC</createdTime>
@@ -41,6 +56,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4AA45F77-9E23-20F3-750A-C5896346A75C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADF89CEE-F2E5-0661-D4E2-25034B3B0AAE" name="TBL_CAT_PROD_TBL_CAT_PROD_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-09 04:28:55 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39AA0C34-2970-124E-44DB-BDDBC55BDCA0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64CA2879-F06A-89B9-15D4-F9E7175AB675" name="TBL_ESTADOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D0DFF5E-A465-E717-B1F0-08211C505D2C" name="TBL_ESTADOS_PEDIDO">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-19 07:05:57 UTC</createdTime>
+<createdTime>2023-11-09 04:16:38 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<ordsAlias>table_6</ordsAlias>
+<ordsAlias>table_35</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_ESTADO" id="ACE8C2A9-9EAE-70C3-052C-E79E94ACF7EF">
+<Column name="ID_ESTADO" id="EFF8EB9B-FCD2-4470-7874-F73F4A784D81">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-19 07:07:07 UTC</createdTime>
+<createdTime>2023-11-09 04:18:01 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,29 +18,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TIPO" id="BC98F114-AF79-DD4F-88C0-E4685DAFE767">
+<Column name="ESTADO" id="EBCB67E5-7A24-5804-A3CD-D3143B282191">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-19 07:07:07 UTC</createdTime>
+<createdTime>2023-11-09 04:18:01 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="94D99F08-1EAE-FC6E-C91C-871C7C1609EC" name="TBL_ESTADOS_PK">
+<ind_PK_UK id="59C8F30B-F340-B83A-9D76-51B1190D3CFD" name="TBL_ESTADOS_PEDIDO_PK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-19 07:07:07 UTC</createdTime>
+<createdTime>2023-11-09 04:18:01 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ACE8C2A9-9EAE-70C3-052C-E79E94ACF7EF"/>
+<colUsage columnID="EFF8EB9B-FCD2-4470-7874-F73F4A784D81"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

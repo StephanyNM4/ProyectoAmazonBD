@@ -32,20 +32,6 @@
 <colAssociation fkAssociation="3285943D-2C0B-283C-A0F3-F9B3E512592C" referredColumn="02BF1BF8-C45E-2FDA-6088-68E1849DDACF"/>
 </associations>
 </Column>
-<Column name="ID_ESTADO" id="9712BDE5-7590-41CC-E20D-AD07F2193DE1">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 16:40:57 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F07996A0-6442-4738-45C3-6414591D1DAD" referredColumn="ACE8C2A9-9EAE-70C3-052C-E79E94ACF7EF"/>
-</associations>
-</Column>
 <Column name="ID_TARJETA_BANCARIA" id="9FF8E07C-BC2A-9183-AEE3-5B18BF2B90DC">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 18:11:26 UTC</createdTime>
@@ -58,6 +44,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="8E021001-6920-B6A6-49C8-A339ACBAB6B9" referredColumn="6827131E-41D8-C05F-4964-9B0E9CCBC694"/>
+</associations>
+</Column>
+<Column name="ID_ESTADO" id="4A27FEA4-74CF-45AF-3CD9-DF4077C1A2D2">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-09 04:20:23 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5C877D8-D664-0622-ABCD-6005AE0365A6" referredColumn="EFF8EB9B-FCD2-4470-7874-F73F4A784D81"/>
 </associations>
 </Column>
 <Column name="FECHA" id="D44EA7D9-95C0-7F70-F627-80F7D5B8F5E6">
@@ -127,16 +127,6 @@
 <colUsage columnID="9CF99825-A753-6BD7-B5AC-16B5E5B8D5A1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D2D4EEFD-8489-43F9-657C-33E70FDEFBAA" name="TBL_PEDIDOS_TBL_ESTADOS_FK">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 16:40:57 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9712BDE5-7590-41CC-E20D-AD07F2193DE1"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="D123B04C-088B-842C-89BA-18286DDF6A3F" name="TBL_PEDIDOS_TBL_TARJETAS_BANCARIAS_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 18:11:26 UTC</createdTime>
@@ -145,6 +135,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9FF8E07C-BC2A-9183-AEE3-5B18BF2B90DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="188FBBEF-1A2B-4EA6-0C2E-804BF23C7835" name="TBL_PEDIDOS_TBL_ESTADOS_PEDIDO_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-09 04:20:23 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A27FEA4-74CF-45AF-3CD9-DF4077C1A2D2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

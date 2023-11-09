@@ -8,20 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_ESTADO" id="845653A9-44AD-6E66-2FA4-A525D49BFF35">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-23 02:33:26 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2B192159-1B14-6930-0439-187BD8F9CC84" referredColumn="ACE8C2A9-9EAE-70C3-052C-E79E94ACF7EF"/>
-</associations>
-</Column>
 <Column name="ID_PRODUCTO" id="92D0A02D-0037-6EC4-4CE7-2E760EA726BC">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 02:33:39 UTC</createdTime>
@@ -50,6 +36,20 @@
 <colAssociation fkAssociation="7B2F9B25-419C-00D0-5023-AC8392CBCE4E" referredColumn="0DA272FA-6C7B-C06E-8DBA-C47AD009D20E"/>
 </associations>
 </Column>
+<Column name="ID_ESTADO" id="A0AB94DD-8165-9452-7EAF-CB69AA091A1D">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-09 04:20:13 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC4DEADC-E617-77B7-0799-770C19F05BB4" referredColumn="88A273E3-FAC0-5A71-0435-88F43A013836"/>
+</associations>
+</Column>
 <Column name="SKU" id="9FF650AF-68E2-AA11-CA37-6EABCEF8D487">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 02:32:54 UTC</createdTime>
@@ -74,16 +74,6 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="926EB020-E672-D5A3-E515-62AB007FE469" name="TBL_PRODUCTOS_EN_VENTA_TBL_ESTADOS_FK">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-23 02:33:26 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="845653A9-44AD-6E66-2FA4-A525D49BFF35"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="F591D68B-285D-C902-12E6-E45C4D24BB14" name="TBL_PRODUCTOS_EN_VENTA_TBL_PRODUCTOS_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 02:33:39 UTC</createdTime>
@@ -102,6 +92,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2356AEC8-93A3-811A-6109-E4928EA832AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58922A20-C500-BD99-CB95-F8D16A5CB58F" name="TBL_PRODUCTOS_EN_VENTA_TBL_ESTADOS_PRODUCTOS_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-09 04:20:13 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0AB94DD-8165-9452-7EAF-CB69AA091A1D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
