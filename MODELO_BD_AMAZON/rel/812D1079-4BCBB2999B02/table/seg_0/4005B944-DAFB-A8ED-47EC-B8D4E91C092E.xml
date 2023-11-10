@@ -68,7 +68,7 @@
 <colUsage columnID="195E6B7A-0F48-926B-3CBC-508EEFFA0EF4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="781354A8-6DB3-79B1-5AAA-A9BB9E015077" name="TBL_EMPRESAS_TBL_LUGARES_FK">
+<ind_PK_UK id="781354A8-6DB3-79B1-5AAA-A9BB9E015077" name="TBL_EMP_TBL_LUG_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 03:33:27 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

@@ -153,7 +153,7 @@
 <colUsage columnID="B7E5C7E7-B31C-CE5D-5629-9C5077D0C5C9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BA7727E6-9E2F-6D78-2BCE-B58FCE8E4D60" name="TBL_TELEFONOS_TBL_PRODUCTOS_FK">
+<ind_PK_UK id="BA7727E6-9E2F-6D78-2BCE-B58FCE8E4D60" name="TBL_TEL_TBL_PRO_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 05:47:50 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -163,7 +163,7 @@
 <colUsage columnID="B7E5C7E7-B31C-CE5D-5629-9C5077D0C5C9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="453CD922-3A1B-4FE0-1730-3D7E11DC9977" name="TBL_TELEFONOS_TBL_COLORES_FK">
+<ind_PK_UK id="453CD922-3A1B-4FE0-1730-3D7E11DC9977" name="TBL_TEL_TBL_COL_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 15:57:19 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -173,7 +173,7 @@
 <colUsage columnID="71F4B92A-514C-2254-BF8E-8D1465DF528E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7A7E1FC1-3163-60A2-312C-293822A7A459" name="TBL_TELEFONOS_TBL_PROCESADORES_FK">
+<ind_PK_UK id="7A7E1FC1-3163-60A2-312C-293822A7A459" name="TBL_TEL_TBL_PR_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 17:48:48 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -183,7 +183,7 @@
 <colUsage columnID="988607D1-FD8B-C90F-BFAB-C714577C1A5B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9E8E5885-6A16-6DA4-D830-BC538883A361" name="TBL_TELEFONOS_TBL_SISTEMAS_OPERATIVOS_FK">
+<ind_PK_UK id="9E8E5885-6A16-6DA4-D830-BC538883A361" name="TBL_TELE_TBL_SIS_OPE_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 17:48:58 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -193,7 +193,7 @@
 <colUsage columnID="37CE009F-A309-5E96-B90F-5439C297DBEF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6F931D28-B353-9E07-EE6B-8639F384F007" name="TBL_TELEFONOS_TBL_MEMORIAS_FK">
+<ind_PK_UK id="6F931D28-B353-9E07-EE6B-8639F384F007" name="TBL_TEL_TBL_MEM_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 17:49:15 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -203,7 +203,7 @@
 <colUsage columnID="8C03D7DD-2751-EB23-4B32-C1DB2935B336"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="583C75C8-36DE-B0C5-46A6-27BDD1454F17" name="TBL_TELEFONOS_TBL_MEMORIAS_FKv2">
+<ind_PK_UK id="583C75C8-36DE-B0C5-46A6-27BDD1454F17" name="TBL_TEL_TBL_MEM_FKv2">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 17:51:30 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

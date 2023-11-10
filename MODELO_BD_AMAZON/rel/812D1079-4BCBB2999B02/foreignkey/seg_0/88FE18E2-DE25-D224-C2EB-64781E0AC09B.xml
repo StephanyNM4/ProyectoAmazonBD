@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88FE18E2-DE25-D224-C2EB-64781E0AC09B" containerWithKeyObject="A858AE95-AE1B-3BEB-D4F8-C3D862C6542E" localFKIndex="37211BDE-AE71-5F62-C0CC-3D308637E293" name="TBL_KEYWORDS_PRODUCTOS_TBL_PRODUCTOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88FE18E2-DE25-D224-C2EB-64781E0AC09B" containerWithKeyObject="A858AE95-AE1B-3BEB-D4F8-C3D862C6542E" localFKIndex="37211BDE-AE71-5F62-C0CC-3D308637E293" name="TBL_KEY_PRO_TBL_PROD_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 02:16:56 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

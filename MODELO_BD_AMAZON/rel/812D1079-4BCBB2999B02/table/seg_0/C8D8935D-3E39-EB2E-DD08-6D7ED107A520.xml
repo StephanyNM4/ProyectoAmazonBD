@@ -71,7 +71,7 @@
 <colUsage columnID="4726DE25-FBB0-57CB-D141-A85543761FD1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7A6E4ED2-B21B-4AF7-AA08-A7471133820D" name="TBL_LUGARES_TBL_LUGARES_FK">
+<ind_PK_UK id="7A6E4ED2-B21B-4AF7-AA08-A7471133820D" name="TBL_LUG_TBL_LUG_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 01:16:11 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -81,7 +81,7 @@
 <colUsage columnID="8B5EB9CA-2D4E-D5BE-7526-C47A5B410A9C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0B6E138B-950E-47D9-CC13-E13A8CF199D7" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<ind_PK_UK id="0B6E138B-950E-47D9-CC13-E13A8CF199D7" name="TBL_LUG_TBL_TIP_LUG_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 01:17:12 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

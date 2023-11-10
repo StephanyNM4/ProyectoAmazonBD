@@ -66,7 +66,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CALIFICACION" id="FA184BDE-810D-3741-7146-7C938E4DE41F">
@@ -112,7 +113,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="AVISO_LEGAL" id="697FE77C-05AC-DC17-BE79-FF4BA9379F49">
@@ -151,7 +153,7 @@
 <colUsage columnID="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="88767F83-A451-84C1-1D22-C702FF7FDFC7" name="TBL_PRODUCTOS_TBL_MARCAS_FK">
+<ind_PK_UK id="88767F83-A451-84C1-1D22-C702FF7FDFC7" name="TBL_PROD_TBL_MAR_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 07:13:38 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -161,7 +163,7 @@
 <colUsage columnID="D12C71D3-E076-0CDF-556B-D8AA8AA7045C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5B599A6E-86A7-3408-5B00-FFC5586977C9" name="TBL_PRODUCTOS_TBL_CATEGORIAS_PRODUCTOS_FK">
+<ind_PK_UK id="5B599A6E-86A7-3408-5B00-FFC5586977C9" name="TBL_PRO_TBL_CAT_PRO_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 07:25:43 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

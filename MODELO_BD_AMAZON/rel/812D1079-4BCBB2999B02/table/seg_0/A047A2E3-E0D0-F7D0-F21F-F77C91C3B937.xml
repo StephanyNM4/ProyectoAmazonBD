@@ -57,7 +57,7 @@
 <colUsage columnID="902C5243-7F7A-AB47-642C-63F4557A6B4C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C17C4266-55A0-342A-40B7-C51EF747EC70" name="TBL_IMAGENES_TBL_PRODUCTOS_FK">
+<ind_PK_UK id="C17C4266-55A0-342A-40B7-C51EF747EC70" name="TBL_IMAG_TBL_PRO_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 07:19:37 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

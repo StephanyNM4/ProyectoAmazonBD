@@ -57,7 +57,7 @@
 <colUsage columnID="F5C48322-6BCF-73CC-19F9-023414BB4D2B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C0487489-EFAF-4B56-5ED0-9EC67A6FC629" name="TBL_TIPOS_CUENTAS_TBL_TIPO_LOGISTICA_FK">
+<ind_PK_UK id="C0487489-EFAF-4B56-5ED0-9EC67A6FC629" name="TBL_T_CU_TBL_T_LOG_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 17:23:28 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

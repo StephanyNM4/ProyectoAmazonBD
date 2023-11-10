@@ -117,7 +117,7 @@
 <colUsage columnID="C84B4ED3-63A4-3EC0-6FA7-3C9DFB33A42E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="06B52115-5C32-E36D-D634-C95B2BD457D6" name="TBL_PEDIDOS_TBL_DIRECCCIONES_CONSUMIDOR_FK">
+<ind_PK_UK id="06B52115-5C32-E36D-D634-C95B2BD457D6" name="TBL_PED_TBL_DIR_CONS_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 16:30:18 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -127,7 +127,7 @@
 <colUsage columnID="9CF99825-A753-6BD7-B5AC-16B5E5B8D5A1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D123B04C-088B-842C-89BA-18286DDF6A3F" name="TBL_PEDIDOS_TBL_TARJETAS_BANCARIAS_FK">
+<ind_PK_UK id="D123B04C-088B-842C-89BA-18286DDF6A3F" name="TBL_PED_TBL_TAR_BANC_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 18:11:26 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -137,7 +137,7 @@
 <colUsage columnID="9FF8E07C-BC2A-9183-AEE3-5B18BF2B90DC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="188FBBEF-1A2B-4EA6-0C2E-804BF23C7835" name="TBL_PEDIDOS_TBL_ESTADOS_PEDIDO_FK">
+<ind_PK_UK id="188FBBEF-1A2B-4EA6-0C2E-804BF23C7835" name="TBL_PED_TBL_EST_PED_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-11-09 04:20:23 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

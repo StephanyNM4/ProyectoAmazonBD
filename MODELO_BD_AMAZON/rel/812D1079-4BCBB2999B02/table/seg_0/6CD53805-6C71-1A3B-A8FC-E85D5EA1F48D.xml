@@ -60,7 +60,7 @@
 <colUsage columnID="FEF2962B-6079-046C-5052-33B7F4BD52BB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B1C37665-4F6D-0089-4BD5-F57C87580157" name="TBL_JUGUETES_TBL_PRODUCTOS_FK">
+<ind_PK_UK id="B1C37665-4F6D-0089-4BD5-F57C87580157" name="TBL_JUG_TBL_PROD_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 15:56:45 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -70,7 +70,7 @@
 <colUsage columnID="FEF2962B-6079-046C-5052-33B7F4BD52BB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FF7C88E7-EFC3-570C-BA1D-09FF3DA3E0C4" name="TBL_JUGUETES_TBL_COLORES_FK">
+<ind_PK_UK id="FF7C88E7-EFC3-570C-BA1D-09FF3DA3E0C4" name="TBL_JUG_TBL_COL_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 15:57:46 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

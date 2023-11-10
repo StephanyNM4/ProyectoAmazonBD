@@ -117,7 +117,7 @@
 <colUsage columnID="5169E427-A548-AA6C-E1DF-730AF440370C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2B82623A-EFE5-AD21-C10F-DB416CC2D655" name="TBL_COMENTARIOS_TBL_PRODUCTOS_FK">
+<ind_PK_UK id="2B82623A-EFE5-AD21-C10F-DB416CC2D655" name="TBL_COM_TBL_PRO_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 07:34:53 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

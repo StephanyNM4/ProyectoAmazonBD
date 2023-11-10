@@ -40,7 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -56,7 +57,7 @@
 <colUsage columnID="EC4DB027-DC84-3E01-7DB7-DB428D663F93"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="10E2B20B-218A-4776-CCED-79D29FA0BCA3" name="TBL_PROCESADORES_TBL_MARCAS_FK">
+<ind_PK_UK id="10E2B20B-218A-4776-CCED-79D29FA0BCA3" name="TBL_PROC_TBL_MAR_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 02:23:15 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

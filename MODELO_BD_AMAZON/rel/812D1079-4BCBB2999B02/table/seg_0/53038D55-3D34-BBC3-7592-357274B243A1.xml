@@ -97,7 +97,7 @@
 <colUsage columnID="8B527AB3-AF7B-FB93-C716-37874DAF9F77"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="070EEFAB-B5B4-581E-519C-1C1B2FDEA9DE" name="TBL_LIBROS_TBL_PRODUCTOS_FK">
+<ind_PK_UK id="070EEFAB-B5B4-581E-519C-1C1B2FDEA9DE" name="TBL_LIB_TBL_PRO_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 05:48:34 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -107,7 +107,7 @@
 <colUsage columnID="8B527AB3-AF7B-FB93-C716-37874DAF9F77"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="41967679-80D6-A358-35B8-29DCFF62CFA8" name="TBL_LIBROS_TBL_PERSONAS_FK">
+<ind_PK_UK id="41967679-80D6-A358-35B8-29DCFF62CFA8" name="TBL_LIB_TBL_PER_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 06:02:16 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -117,7 +117,7 @@
 <colUsage columnID="1FEA42DB-D799-B58B-AB03-A8225A2F2A9E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F13DC26E-2C63-93A3-9ABD-155543B38FD1" name="TBL_LIBROS_TBL_EDITORIALES_FK">
+<ind_PK_UK id="F13DC26E-2C63-93A3-9ABD-155543B38FD1" name="TBL_LIB_TBL_EDI_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 17:52:32 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

@@ -58,7 +58,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PRECIO" id="5C376EA1-26DF-D6E6-B5D0-5F3671A7EC71">
@@ -74,7 +75,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F591D68B-285D-C902-12E6-E45C4D24BB14" name="TBL_PRODUCTOS_EN_VENTA_TBL_PRODUCTOS_FK">
+<ind_PK_UK id="F591D68B-285D-C902-12E6-E45C4D24BB14" name="TBL_PROD_VEN_TBL_PRO_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 02:33:39 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -84,7 +85,7 @@
 <colUsage columnID="92D0A02D-0037-6EC4-4CE7-2E760EA726BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9996F3D7-06EB-6DE2-44E8-43B8F93379DE" name="TBL_PRODUCTOS_EN_VENTA_TBL_VENDEDORES_FK">
+<ind_PK_UK id="9996F3D7-06EB-6DE2-44E8-43B8F93379DE" name="TBL_PRO_VEN_TBL_VEN_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 02:34:03 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -94,7 +95,7 @@
 <colUsage columnID="2356AEC8-93A3-811A-6109-E4928EA832AC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="58922A20-C500-BD99-CB95-F8D16A5CB58F" name="TBL_PRODUCTOS_EN_VENTA_TBL_ESTADOS_PRODUCTOS_FK">
+<ind_PK_UK id="58922A20-C500-BD99-CB95-F8D16A5CB58F" name="TBL_P_VEN_TBL_EST_P_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-11-09 04:20:13 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

@@ -109,7 +109,7 @@
 <colUsage columnID="6827131E-41D8-C05F-4964-9B0E9CCBC694"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="05C63323-4AA5-7776-D964-0CD4155B3CD6" name="TBL_TARJETAS_BANCARIAS_TBL_TIPOS_PROPIETARIOS_FK">
+<ind_PK_UK id="05C63323-4AA5-7776-D964-0CD4155B3CD6" name="TBL_TAR_B_TBL_TI_PR_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 03:29:11 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -119,7 +119,7 @@
 <colUsage columnID="49C89E17-2F14-090B-D6B3-C28B54387A39"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A2C00CCC-26BC-EEB2-F2A9-6165C78B4C01" name="TBL_TARJETAS_BANCARIAS_TBL_CONSUMIDORES_FK">
+<ind_PK_UK id="A2C00CCC-26BC-EEB2-F2A9-6165C78B4C01" name="TBL_TAR_BANC_TBL_C_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 03:29:51 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -129,7 +129,7 @@
 <colUsage columnID="2C04018B-6912-B83E-7B68-1A580CF5F6F5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8FA53A7C-C87F-1F70-A1B0-AA4BBDC6EDB8" name="TBL_TARJETAS_BANCARIAS_TBL_VENDEDORES_FK">
+<ind_PK_UK id="8FA53A7C-C87F-1F70-A1B0-AA4BBDC6EDB8" name="TBL_TAR_BAN_TBL_VEN_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 03:29:59 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

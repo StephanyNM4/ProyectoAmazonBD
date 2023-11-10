@@ -63,7 +63,7 @@
 <colUsage columnID="CB69267E-5960-62FD-6B59-1AF8A59C9DE4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5CF90B82-52FA-ABD4-EF8F-638407C847D2" name="TBL_PINTURAS_TBL_PRODUCTOS_FK">
+<ind_PK_UK id="5CF90B82-52FA-ABD4-EF8F-638407C847D2" name="TBL_PINT_TBL_PROD_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 05:49:56 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -73,7 +73,7 @@
 <colUsage columnID="CB69267E-5960-62FD-6B59-1AF8A59C9DE4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0B8ABDA7-D0AC-4131-2A80-364ADC53FBBA" name="TBL_PINTURAS_TBL_PERSONAS_FK">
+<ind_PK_UK id="0B8ABDA7-D0AC-4131-2A80-364ADC53FBBA" name="TBL_PINT_TBL_PER_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 06:02:07 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -83,7 +83,7 @@
 <colUsage columnID="FDF23D2E-358C-624C-95FC-B3BC00AA9A8F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="55767918-2374-13EF-162F-B3A6A87806F4" name="TBL_PINTURAS_TBL_TECNICAS_FK">
+<ind_PK_UK id="55767918-2374-13EF-162F-B3A6A87806F4" name="TBL_PINT_TBL_TECN_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 03:18:50 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

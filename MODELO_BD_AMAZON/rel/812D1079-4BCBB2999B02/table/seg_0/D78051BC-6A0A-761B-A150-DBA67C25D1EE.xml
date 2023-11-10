@@ -169,7 +169,7 @@
 <colUsage columnID="0DA272FA-6C7B-C06E-8DBA-C47AD009D20E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B95C8E4B-E3FC-9282-79C7-38D8A5C53030" name="TBL_VENDEDORES_TBL_TIPOS_CUENTAS_FK">
+<ind_PK_UK id="B95C8E4B-E3FC-9282-79C7-38D8A5C53030" name="TBL_VEN_TBL_T_CUEN_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 16:02:21 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -179,7 +179,7 @@
 <colUsage columnID="BEBB4CA1-A6F0-CE56-6383-F9E3BDC143FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="70D1A1B9-F91B-8036-AA3C-6DDCECCAD3DA" name="TBL_VENDEDORES_TBL_EMPRESAS_FK">
+<ind_PK_UK id="70D1A1B9-F91B-8036-AA3C-6DDCECCAD3DA" name="TBL_VEN_TBL_EMP_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 03:30:08 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -189,7 +189,7 @@
 <colUsage columnID="740E9DBA-148D-58C0-2B65-430F54EAEC19"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="58C7F954-1B51-AD4A-712B-AF96F9322BBD" name="TBL_VENDEDORES_TBL_LUGARES_FK">
+<ind_PK_UK id="58C7F954-1B51-AD4A-712B-AF96F9322BBD" name="TBL_VEND_TBL_LUG_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 03:31:56 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -199,7 +199,7 @@
 <colUsage columnID="8501617C-31FA-E07D-BBF3-01DBEF819A48"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8F933BE6-35CF-5FB2-1F71-BD58E019CAB2" name="TBL_VENDEDORES_TBL_LUGARES_FKv2">
+<ind_PK_UK id="8F933BE6-35CF-5FB2-1F71-BD58E019CAB2" name="TBL_VEND_TBL_LUG_FKv2">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 03:32:37 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>

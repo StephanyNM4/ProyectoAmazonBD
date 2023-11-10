@@ -38,7 +38,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1A4456C2-6660-17F2-2B96-8027FE6D3C8F" name="TBL_PRODUCTOS_PEDIDOS_TBL_PRODUCTOS_FK">
+<ind_PK_UK id="1A4456C2-6660-17F2-2B96-8027FE6D3C8F" name="TBL_PRO_PED_TBL_PRO_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 16:33:53 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
@@ -48,7 +48,7 @@
 <colUsage columnID="BC850403-9823-451D-209D-4861BD1F2AFF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CD4DE143-4701-D187-985B-F8798C9160D1" name="TBL_PRODUCTOS_PEDIDOS_TBL_PEDIDOS_FK">
+<ind_PK_UK id="CD4DE143-4701-D187-985B-F8798C9160D1" name="TBL_PROD_PED_TBL_PED_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 16:34:00 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
