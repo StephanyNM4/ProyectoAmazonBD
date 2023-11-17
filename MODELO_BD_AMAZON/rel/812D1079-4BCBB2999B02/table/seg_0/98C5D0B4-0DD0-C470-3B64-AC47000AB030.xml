@@ -82,6 +82,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ISV" id="FCDF4144-1106-3735-284F-EE816B96C459">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 17:06:41 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="TOTAL" id="9B974311-08A2-1846-5BEE-93E192BF7AF0">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 16:18:27 UTC</createdTime>

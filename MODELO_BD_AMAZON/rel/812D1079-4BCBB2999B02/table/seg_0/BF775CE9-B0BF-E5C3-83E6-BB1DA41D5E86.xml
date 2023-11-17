@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF775CE9-B0BF-E5C3-83E6-BB1DA41D5E86" name="TBL_ESTADO_NOT">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 17:02:16 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO" id="D8696541-BCD3-CA29-87EC-8BE0E4C34C62">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 17:02:51 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="3ACFEBF5-7C0C-27B7-84B8-C5389D6F8137">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 17:02:51 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EE07F4B-E232-D406-F140-8C7BA4F02617" name="TBL_ESTADO_NOT_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 17:02:51 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8696541-BCD3-CA29-87EC-8BE0E4C34C62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

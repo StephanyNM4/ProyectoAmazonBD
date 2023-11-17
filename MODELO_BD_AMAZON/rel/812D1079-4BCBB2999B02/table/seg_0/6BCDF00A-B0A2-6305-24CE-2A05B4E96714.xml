@@ -8,19 +8,15 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_PRODUCTO" id="BC850403-9823-451D-209D-4861BD1F2AFF">
+<Column name="ID_PROD_PED" id="865A0ADD-382A-1E1C-7231-99C0885B5B18">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 16:33:53 UTC</createdTime>
+<createdTime>2023-11-17 17:00:19 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BF604944-997B-B5BE-35C1-19E734BEFB30" referredColumn="4DB4BFBF-E697-CC75-7E17-8016508A11AF"/>
-</associations>
 </Column>
 <Column name="ID_PEDIDO" id="FB5A2F18-1400-CCED-3B72-174F26C2426D">
 <createdBy>steph</createdBy>
@@ -36,16 +32,64 @@
 <colAssociation fkAssociation="98AE5DB6-9A35-1F99-163F-08C48EDB47A8" referredColumn="C84B4ED3-63A4-3EC0-6FA7-3C9DFB33A42E"/>
 </associations>
 </Column>
+<Column name="ID_PROD_VEND" id="2B2E8720-1C07-6499-6E3C-8C0499C4B980">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 16:38:25 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="492363CA-069C-8319-920A-70A3F0CADF9C" referredColumn="6E9D3B87-39B3-D07B-2C30-E5E7BB081051"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="14778517-0953-E65F-17B9-768213CDE68C">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 16:58:56 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="21AD2D5E-D211-021C-1A68-77A225FB6154">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 16:59:53 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBTOTAL" id="EE0399EC-BF65-F9FC-B047-B92865221E09">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 16:59:53 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1A4456C2-6660-17F2-2B96-8027FE6D3C8F" name="TBL_PRO_PED_TBL_PRO_FK">
+<ind_PK_UK id="F0CF1916-9265-87BE-F312-AD9DF50E408B" name="TBL_PRODUCTOS_PEDIDOS_PK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 16:33:53 UTC</createdTime>
+<createdTime>2023-11-17 17:00:19 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<indexState>Foreign Key</indexState>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BC850403-9823-451D-209D-4861BD1F2AFF"/>
+<colUsage columnID="865A0ADD-382A-1E1C-7231-99C0885B5B18"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="CD4DE143-4701-D187-985B-F8798C9160D1" name="TBL_PROD_PED_TBL_PED_FK">
@@ -56,6 +100,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FB5A2F18-1400-CCED-3B72-174F26C2426D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE6A3A20-B4EA-2C43-8930-109CD6838556" name="TBL_P_PE_TBL_P_EN_V_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 16:38:25 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B2E8720-1C07-6499-6E3C-8C0499C4B980"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

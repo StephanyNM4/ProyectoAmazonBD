@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6D02BDAD-923D-C2FE-7DF9-A52959C36E27" containerWithKeyObject="6D8EB325-8849-75E9-7658-0B9662EBB172" localFKIndex="A0728EEC-FDAF-87F1-EC45-D9A5CD680C54" name="TBL_NOT_TBL_ES_NOT_FK">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 17:03:05 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<referredTableLongName>TBL_ESTADO_NOT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF775CE9-B0BF-E5C3-83E6-BB1DA41D5E86</referredTableID>
+<keyObject>7EE07F4B-E232-D406-F140-8C7BA4F02617</keyObject>
+<referredKeyID>7EE07F4B-E232-D406-F140-8C7BA4F02617</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

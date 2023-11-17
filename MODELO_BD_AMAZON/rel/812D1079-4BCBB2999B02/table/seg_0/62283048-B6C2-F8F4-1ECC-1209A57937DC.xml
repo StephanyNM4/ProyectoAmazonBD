@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROD_VEND" id="6E9D3B87-39B3-D07B-2C30-E5E7BB081051">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 16:38:11 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ID_PRODUCTO" id="92D0A02D-0037-6EC4-4CE7-2E760EA726BC">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 02:33:39 UTC</createdTime>
@@ -73,8 +83,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CANTIDAD" id="6F1D17F4-4201-A977-E015-0577E254EBE8">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 16:41:38 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5B9D5BD-2BFA-2DBC-B80B-E45281A1E8DF" name="TBL_PRODUCTOS_EN_VENTA_PK">
+<createdBy>steph</createdBy>
+<createdTime>2023-11-17 16:38:11 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9D3B87-39B3-D07B-2C30-E5E7BB081051"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="F591D68B-285D-C902-12E6-E45C4D24BB14" name="TBL_PROD_VEN_TBL_PRO_FK">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-23 02:33:39 UTC</createdTime>

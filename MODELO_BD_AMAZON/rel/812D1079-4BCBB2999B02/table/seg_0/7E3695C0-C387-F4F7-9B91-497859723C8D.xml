@@ -129,17 +129,6 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CANTIDAD" id="E85A6C20-3741-DB1E-B8A2-636C510C1BB4">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-19 17:34:40 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="C5D8B502-CDB9-0686-6BD7-8E2AF6D7B5C0" name="TBL_PRODUCTOS_PK">
