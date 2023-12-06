@@ -8,7 +8,7 @@
 <referredTableID>04040605-07F9-96C0-1821-6894D761D3E0</referredTableID>
 <keyObject>01939C24-7FD6-FB48-2F94-378014874C16</keyObject>
 <referredKeyID>01939C24-7FD6-FB48-2F94-378014874C16</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ID_MARCA</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

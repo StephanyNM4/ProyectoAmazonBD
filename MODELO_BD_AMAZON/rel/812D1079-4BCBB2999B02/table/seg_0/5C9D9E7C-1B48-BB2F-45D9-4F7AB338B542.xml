@@ -19,17 +19,6 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_TIPO_PERSONA" id="23F3C341-91F1-6C9E-9F7A-A354D79A9CD9">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 06:01:00 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="GENERO" id="9CC36006-8BCE-DD75-58D0-9112018B3B89">
 <createdBy>steph</createdBy>
 <createdTime>2023-11-09 04:40:28 UTC</createdTime>

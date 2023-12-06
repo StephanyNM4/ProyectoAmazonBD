@@ -48,6 +48,18 @@
 <colAssociation fkAssociation="BABC74FE-CDEE-0561-EF52-D128B636266F" referredColumn="EB5DDB56-9F9F-49D6-E4CB-537CF85D4199"/>
 </associations>
 </Column>
+<Column name="LUGAR" id="435FC300-5724-1D19-F059-3C90AFC7A900">
+<createdBy>steph</createdBy>
+<createdTime>2023-12-06 14:50:39 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ZIP" id="F31197D1-FB4E-BA09-EB75-96A2EA1FB9AC">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-20 01:16:00 UTC</createdTime>
