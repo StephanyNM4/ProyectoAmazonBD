@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="444A8767-54C8-BE22-86FF-FDC1E481FB92" name="TBL_TARJETAS_BANCARIAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CBFC2BF-B648-9729-651D-4806B170BA47" name="TBL_MENSAJES">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 17:58:45 UTC</createdTime>
+<createdTime>2023-12-06 01:59:39 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<ordsAlias>table_41</ordsAlias>
+<ordsAlias>table_37</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_TARJETA" id="6827131E-41D8-C05F-4964-9B0E9CCBC694">
+<Column name="ID_MENSAJE" id="C1CE2F6C-6FD8-46E7-958B-67B5DA2952F5">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 17:59:43 UTC</createdTime>
+<createdTime>2023-12-06 02:01:02 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,9 +19,9 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_TIPO_PROPIETARIO" id="49C89E17-2F14-090B-D6B3-C28B54387A39">
+<Column name="ID_VENDEDOR" id="CB309E8F-649F-CF24-28DC-40B415AC298A">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 03:29:11 UTC</createdTime>
+<createdTime>2023-12-06 02:01:13 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,12 +30,26 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="DA0D8EFC-F5A6-C60A-85B8-64280EA67664" referredColumn="F1069A96-C031-DA3C-8B09-8B596DC52BF8"/>
+<colAssociation fkAssociation="54CC08A7-D812-64F3-3E1B-4482F7CDF390" referredColumn="0DA272FA-6C7B-C06E-8DBA-C47AD009D20E"/>
 </associations>
 </Column>
-<Column name="ID_CONSUMIDOR" id="2C04018B-6912-B83E-7B68-1A580CF5F6F5">
+<Column name="ID_CONSUMIDOR" id="496CECCF-948F-4763-2624-A6BDC4494986">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 03:29:51 UTC</createdTime>
+<createdTime>2023-12-06 02:01:28 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6989EE4-32B5-D6D9-FA7D-F76C044EA45D" referredColumn="CC823BC5-C045-986B-0FE7-B36693DC562F"/>
+</associations>
+</Column>
+<Column name="ID_MENSAJE_PADRE" id="9B3BFBCC-15CF-5093-5E9A-D397BCF94253">
+<createdBy>steph</createdBy>
+<createdTime>2023-12-06 02:03:40 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,99 +59,74 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CA7AA06E-36F5-C094-115B-133097229831" referredColumn="CC823BC5-C045-986B-0FE7-B36693DC562F"/>
+<colAssociation fkAssociation="0AC11913-FB77-6B1A-4D6E-97380CA06A97" referredColumn="C1CE2F6C-6FD8-46E7-958B-67B5DA2952F5"/>
 </associations>
 </Column>
-<Column name="ID_VENDEDOR" id="5224AEA6-7E39-8EFB-48FC-7A538541A8B8">
+<Column name="MENSAJE" id="9F1CCC23-28A0-5EE3-12A4-8D6C0F903CFB">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 03:29:59 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DDEDA2D1-9F85-27E2-6BF7-ED316B5D1221" referredColumn="0DA272FA-6C7B-C06E-8DBA-C47AD009D20E"/>
-</associations>
-</Column>
-<Column name="NUMERO_TARJETA" id="62215294-E286-029A-DC95-E55DC2EDEF96">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 17:59:43 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="NOMBRE_PROPIETARIO" id="B22E1220-8735-0B86-1710-1EF0038A97C8">
-<createdBy>steph</createdBy>
-<createdTime>2023-10-20 17:59:43 UTC</createdTime>
+<createdTime>2023-12-06 02:01:02 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FECHA_VENCIMIENTO" id="826F5CFE-7FAA-8162-43A9-B19953A1C00B">
+<Column name="EMISOR" id="3726686E-1572-FBD5-4D91-423E081777EB">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 17:59:43 UTC</createdTime>
+<createdTime>2023-12-06 02:03:26 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9D22FF3F-94BC-28AA-81BD-2810FF73E06E" name="TBL_TARJETAS_BANCARIAS_PK">
+<ind_PK_UK id="8DB22CA6-70EF-5DF9-E8E5-600FB36BE647" name="TBL_MENSAJES_PK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-20 17:59:43 UTC</createdTime>
+<createdTime>2023-12-06 02:01:02 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6827131E-41D8-C05F-4964-9B0E9CCBC694"/>
+<colUsage columnID="C1CE2F6C-6FD8-46E7-958B-67B5DA2952F5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="05C63323-4AA5-7776-D964-0CD4155B3CD6" name="TBL_TAR_B_TBL_TI_PR_FK">
+<ind_PK_UK id="18814002-8BD9-9BA4-93A0-5C0D04127E1E" name="TBL_MENSA_TBL_VEN_FK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 03:29:11 UTC</createdTime>
+<createdTime>2023-12-06 02:01:13 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="49C89E17-2F14-090B-D6B3-C28B54387A39"/>
+<colUsage columnID="CB309E8F-649F-CF24-28DC-40B415AC298A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A2C00CCC-26BC-EEB2-F2A9-6165C78B4C01" name="TBL_TAR_BANC_TBL_C_FK">
+<ind_PK_UK id="84ED383A-B526-7870-FDA4-11FF36319761" name="TBL_MENS_TBL_CONSU_FK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 03:29:51 UTC</createdTime>
+<createdTime>2023-12-06 02:01:28 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2C04018B-6912-B83E-7B68-1A580CF5F6F5"/>
+<colUsage columnID="496CECCF-948F-4763-2624-A6BDC4494986"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8FA53A7C-C87F-1F70-A1B0-AA4BBDC6EDB8" name="TBL_TAR_BAN_TBL_VEN_FK">
+<ind_PK_UK id="41C7F1A1-3E8F-AB57-7215-B5F0E6F4BC7B" name="TBL_MENS_TBL_MENS_FK">
 <createdBy>steph</createdBy>
-<createdTime>2023-10-23 03:29:59 UTC</createdTime>
+<createdTime>2023-12-06 02:03:40 UTC</createdTime>
 <ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5224AEA6-7E39-8EFB-48FC-7A538541A8B8"/>
+<colUsage columnID="9B3BFBCC-15CF-5093-5E9A-D397BCF94253"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

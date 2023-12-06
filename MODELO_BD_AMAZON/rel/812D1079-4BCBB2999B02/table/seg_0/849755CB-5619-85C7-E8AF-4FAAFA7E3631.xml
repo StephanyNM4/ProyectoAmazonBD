@@ -16,6 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ID_CONSUMIDOR" id="DA516D40-8E64-4482-5E13-FB17361F580D">

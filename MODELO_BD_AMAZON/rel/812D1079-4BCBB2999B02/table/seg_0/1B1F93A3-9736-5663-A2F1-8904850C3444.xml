@@ -16,6 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="SISTEMA_OPERATIVO" id="6E78B9D9-689C-7D9D-57F8-2752DBF211E4">
