@@ -131,17 +131,6 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DESCUENTO" id="13CE44B3-36DD-3E03-8A17-8982859788FC">
-<createdBy>steph</createdBy>
-<createdTime>2023-12-06 02:06:21 UTC</createdTime>
-<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="C5D8B502-CDB9-0686-6BD7-8E2AF6D7B5C0" name="TBL_PRODUCTOS_PK">
