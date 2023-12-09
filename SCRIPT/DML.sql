@@ -778,3 +778,5 @@ INSERT INTO	TBL_IMAGENES	(	ID_PRODUCTO,	SRC	)	VALUES	(	2,	'https://www.mmtseguro
 INSERT INTO	TBL_IMAGENES	(	ID_PRODUCTO,	SRC	)	VALUES	(	3,	'https://oriescuelacorrecaminos.files.wordpress.com/2023/02/productos.jpg?w=1200'	);
 INSERT INTO	TBL_IMAGENES	(	ID_PRODUCTO,	SRC	)	VALUES	(	3,	'https://www.consumoteca.com/wp-content/uploads/Enjuague-bucal-Gabriel-Manlake-Unsplash.png'	);
 INSERT INTO	TBL_IMAGENES	(	ID_PRODUCTO,	SRC	)	VALUES	(	4,	'https://oriescuelacorrecaminos.files.wordpress.com/2018/05/productos-oriflame.jpg?w=640'	);
+
+COMMIT;
