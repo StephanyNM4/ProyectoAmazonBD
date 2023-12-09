@@ -99,6 +99,30 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CORREO" id="FC5AFD9E-42FB-1486-58E1-9057F99D6692">
+<createdBy>steph</createdBy>
+<createdTime>2023-12-09 04:54:13 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="2110CA95-230F-22E9-1E5E-0B972060A6F2">
+<createdBy>steph</createdBy>
+<createdTime>2023-12-08 18:45:22 UTC</createdTime>
+<ownerDesignName>MODELO_BD_AMAZON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="APELLIDO" id="AD3B40C1-478F-0FC5-4586-15721709E50B">
 <createdBy>steph</createdBy>
 <createdTime>2023-10-19 07:44:32 UTC</createdTime>
